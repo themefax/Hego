@@ -59,6 +59,7 @@ img {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
+    transition: all linear .3s;
 }
 
 input,
@@ -146,8 +147,6 @@ button {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: -0.4px;
-    text-align: center;
-    margin-top: 25px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -178,7 +177,6 @@ button {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid var(--borderColor);
-    padding-bottom: 20px;
 }
 
 
@@ -386,7 +384,7 @@ button {
 /* BANNER START */
 .banner {
     height: 100vh;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 .banner div {
@@ -398,6 +396,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    margin-top: 30px;
 }
 
 .banner .banner_text h1 {
@@ -443,6 +442,7 @@ button {
 
 /* SERVICES START */
 .single_services {
+    margin-top: 25px;
     padding: 50px 25px;
     text-align: center;
     position: relative;
@@ -462,6 +462,11 @@ button {
     border-radius: 50%;
     padding: 18px;
     margin: 0 auto;
+}
+
+.single_services a {
+    text-align: center;
+    margin-top: 25px;
 }
 
 .single_services p {
@@ -600,18 +605,156 @@ button {
     background-size: contain;
 }
 
-
-
-
-
-
-
-
-
 /* FAQ END */
 
 
+/* PORTFOLIO START */
+.portfolio {}
 
+.filter_btn {
+    gap: 10px 35px;
+}
+
+.filter_btn button {
+    color: var(--colorBlack);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    opacity: .9;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.filter_btn button::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: var(--colorBlack);
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    opacity: 0;
+}
+
+.filter_btn button:hover,
+.filter_btn button.active {
+    opacity: 1;
+}
+
+.filter_btn button:hover::after,
+.filter_btn button.active::after {
+    opacity: 1;
+}
+
+.single_portfolio {
+    margin-top: 25px;
+}
+
+.single_portfolio .img {
+    display: block;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.single_portfolio .img span {
+    display: block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: var(--colorPrimary);
+    color: var(--colorBlack);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    z-index: 9;
+    opacity: 0;
+}
+
+.single_portfolio .title {
+    text-align: center;
+}
+
+.single_portfolio p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+
+.single_portfolio:hover .img img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.single_portfolio:hover .img span {
+    opacity: 1;
+}
+
+/* PORTFOLIO END */
+
+
+/* TEXT SLIDER START */
+.text_slider {
+    background: var(--colorBlack);
+    padding: 40px 0px;
+}
+
+.text_slider .marquee_animi {}
+
+.text_slider .marquee_animi ul {
+    gap: 55px;
+}
+
+.text_slider .marquee_animi ul li {
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--colorWhite);
+}
+
+/* TEXT SLIDER END */
 
 
 

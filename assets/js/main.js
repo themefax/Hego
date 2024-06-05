@@ -2,7 +2,7 @@ $(function () {
 
     "use strict";
 
-    //=======MENU FIX======
+    // MENU FIX JS
     if ($(window).scrollTop() > 1) {
         if ($('.main_menu').offset() != undefined) {
             $('.main_menu').addClass('menu_fix');
@@ -31,15 +31,46 @@ $(function () {
     });
 
 
-    //=======COUNTER JS======
+    // COUNTER JS
     $('.count').countUp();
 
 
-    //=======WOW JS======
+    // WOW JS
     new WOW().init();
 
-    //=======COURSORE POINTER======
+
+    // COURSORE POINTER
     init_pointer({});
+
+
+    // ISOTOPE JS
+    var $grid = $('.grid').isotope({});
+
+    $('.filter_btn').on('click', 'button', function () {
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({
+            filter: filterValue
+        });
+    });
+
+    //active class
+    $('.filter_btn button').on("click", function (event) {
+
+        $(this).siblings('.active').removeClass('active');
+        $(this).addClass('active');
+        event.preventDefault();
+
+    });
+
+    // MARQUEE ANIMATION JS
+    $('.marquee_animi').marquee({
+        speed: 50,
+        delayBeforeStart: 0,
+        direction: 'left',
+        duplicated: true,
+        pauseOnHover: true
+    });
+
 
 
     // $('.testimonial_slider').slick({
