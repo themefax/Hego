@@ -17,7 +17,6 @@ $(function () {
         if ($(this).scrollTop() > 1) {
 
             if ($('.main_menu').offset() != undefined) {
-                // check if menu_if class is already added
                 if (!$('.main_menu').hasClass("menu_fix")) {
                     $('.main_menu').addClass("menu_fix");
                 }
@@ -53,6 +52,7 @@ $(function () {
         });
     });
 
+
     //active class
     $('.filter_btn button').on("click", function (event) {
 
@@ -62,13 +62,31 @@ $(function () {
 
     });
 
+
     // MARQUEE ANIMATION JS
     $('.marquee_animi').marquee({
-        speed: 50,
+        gap: 100,
+        speed: 70,
         delayBeforeStart: 0,
         direction: 'left',
         duplicated: true,
         pauseOnHover: true
+    });
+
+
+    // VENBOX JS
+    $('.venobox').venobox();
+
+
+    // TESTIMONIAL SLIDER
+    $('.testimonial_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: true,
+        arrows: false,
+
     });
 
 
@@ -77,7 +95,7 @@ $(function () {
     //     slidesToShow: 2,
     //     slidesToScroll: 1,
     //     autoplay: true,
-    //     autoplaySpeed: 2500,
+    //     autoplaySpeed: 4000,
     //     dots: true,
     //     arrows: false,
 
