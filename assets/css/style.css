@@ -91,6 +91,8 @@ button {
     --colorPrimary: #FEDD00;
     --colorRed: #DF1839;
     --colorGreen: #219653;
+    --colorBlue: #3D33A7;
+    --colorYellowLight: #DDFE55;
     --colorBlack: #111013;
     --colorWhite: #ffffff;
     --lightBg: #77aeff2e;
@@ -180,7 +182,7 @@ button {
 
 
 /*==================================
-    HOME PAGE START
+    HOME PAGE 01 START
 ==================================*/
 /* MENU START */
 .main_menu {
@@ -367,7 +369,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 .banner .banner_text h1 {
@@ -1022,7 +1024,7 @@ button {
 /* COUNTER START */
 .counter ul {
     padding: 40px 0px;
-    background: var(--lightBg);
+    background: var(--gradiantColor);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1468,9 +1470,224 @@ footer {
 /* FOOTER END */
 
 /*==================================
-    HOME PAGE END
+    HOME PAGE 01 END
 ==================================*/
 
+
+/*==================================
+    HOME PAGE 02 START
+==================================*/
+.home_2 {}
+
+.home_2 .common_btn::after {
+    background: var(--colorYellowLight);
+}
+
+
+/* MENU 2 START */
+.main_menu_2 .menu_right_btn li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.main_menu_2 .menu_right_btn li span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: var(--colorYellowLight);
+    padding: 9px;
+    line-height: 22px;
+}
+
+.main_menu_2 .menu_right_btn li a {
+    padding: 10px 17px;
+}
+
+.main_menu_2 .navbar-nav .nav-item:hover .nav-link,
+.main_menu_2 .navbar-nav .nav-item .nav-link.active {
+    color: var(--colorYellowLight);
+}
+
+/* MENU 2 END */
+
+
+/* BANNER 2 START */
+.banner_2 .banner_text h1,
+.banner_2 .banner_text h1 span {
+    font-size: 80px;
+    line-height: 110px;
+    font-weight: 700;
+}
+
+.banner_2 .banner_text h1 span {
+    background: #9D98FE;
+    color: var(--colorBlack);
+    padding: 0px 25px 5px 25px;
+    border-radius: 6px;
+}
+
+.banner_2 .banner_text p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.banner_2 .banner_text a {
+    background: var(--colorYellowLight);
+}
+
+.banner_2 .banner_img {
+    align-items: end;
+    position: relative;
+}
+
+.banner_2 .banner_img .img {
+    height: 680px;
+    margin-bottom: 40px;
+}
+
+.banner_2 .banner_img .text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: var(--colorYellowLight);
+    padding: 40px 50px 35px 50px;
+}
+
+.banner_2 .banner_img .text h4 {
+    color: var(--colorBlack);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner_2 .banner_img .text p {
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    opacity: .8;
+}
+
+/* BANNER 2 END */
+
+
+/* SERVICES 2 START */
+.services_2 {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.services_2 .sponsor {
+    border-bottom: 1px solid rgba(17, 17, 17, 0.10);
+    overflow: hidden;
+    padding: 70px 0px;
+}
+
+.services_2 .marquee_animi {}
+
+.services_2 .marquee_animi ul {
+    gap: 100px;
+}
+
+.services_2 .marquee_animi ul li {
+    width: 150px;
+}
+
+
+
+.services_2 {}
+
+.services_2 .section_heading {}
+
+.services_2 .section_heading h2 {
+    text-align: center;
+}
+
+
+.single_services_2 {
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    padding: 80px 60px;
+    margin-top: 25px;
+    border-top: 2px solid var(--colorWhite);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    position: relative;
+}
+
+.single_services_2::after {
+    position: absolute;
+    content: "";
+    background: url(../images/gradiant_shapes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 175px;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single_services_2 .icon {
+    width: 60px;
+    height: 60px;
+}
+
+.single_services_2 .title {
+    font-size: 24px;
+    margin-top: 45px;
+}
+
+.single_services_2 p {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.single_services_2 a {}
+
+.single_services_2:hover,
+.single_services_2.active {
+    border-color: #F234A6;
+}
+
+.single_services_2:hover:after,
+.single_services_2.active::after {
+    opacity: 1;
+}
+
+.single_services_2.active .common_btn {
+    background: var(--colorYellowLight);
+}
+
+
+
+
+
+/* SERVICES 2 END */
+
+
+
+/*==================================
+    HOME PAGE 02 END
+==================================*/
 
 
 
