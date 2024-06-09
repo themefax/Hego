@@ -157,6 +157,33 @@ button {
     text-underline-offset: 5px;
 }
 
+.nextArrow,
+.prevArrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px !important;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: var(--colorBlack);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    z-index: 1;
+}
+
+.nextArrow,
+.nextArrow:hover,
+.prevArrow:hover {
+    background: var(--colorBlack);
+    border-color: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
 .section_heading h2 {
     color: var(--colorBlack);
     font-size: 60px;
@@ -1993,34 +2020,6 @@ footer {
     bottom: 0;
 }
 
-
-.nextArrow,
-.prevArrow {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40px;
-    height: 40px;
-    line-height: 40px !important;
-    text-align: center;
-    border: 1px solid #ddd;
-    color: var(--colorBlack);
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    z-index: 1;
-}
-
-.nextArrow,
-.nextArrow:hover,
-.prevArrow:hover {
-    background: var(--colorBlack);
-    border-color: var(--colorBlack);
-    color: var(--colorWhite);
-}
-
 .case_studies .nextArrow,
 .case_studies .prevArrow {
     top: -100px;
@@ -2031,7 +2030,38 @@ footer {
     right: 366px;
 }
 
+.case_studies_contact_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 
+.case_studies_contact_text .icon {
+    width: 40px;
+}
+
+.case_studies_contact_text p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.case_studies_contact_text a {
+    color: var(--colorBlack);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    transition: all linear .3s;
+}
+
+.case_studies_contact_text a:hover {
+    text-decoration: none;
+}
 
 
 
