@@ -131,7 +131,56 @@ $(function () {
 
 
 
+    // TESTIMONIAL SLIDER
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows: false,
+        dots: true,
+        asNavFor: '.slider-nav'
+    });
 
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        focusOnSelect: true,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
 
 
 
