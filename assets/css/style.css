@@ -117,6 +117,7 @@ button {
     letter-spacing: -0.3px;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .common_btn i {
@@ -2600,22 +2601,312 @@ footer {
 /*==================================
     HOME PAGE 03 START
 ==================================*/
+.home_3 {
+    background: var(--lightBg);
+}
+
+.home_3 .common_btn {
+    background: var(--colorWhite);
+    border-radius: 100px;
+}
+
+/* MENU 3 START */
+.main_menu_3 {
+    border: none;
+}
+
+.main_menu_3 .navbar-nav {
+    line-height: 45px;
+    padding: 0px 10px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.main_menu_3 .menu_right_btn li a {
+    border-radius: 100px;
+}
+
+.main_menu_3 .droap_menu {
+    border-radius: 10px;
+}
+
+.main_menu_3 .menu_right_btn li a {
+    padding: 10px 20px;
+}
+
+.main_menu_3 .menu_right_btn li a span {
+    filter: brightness(0) saturate(100%) invert(19%) sepia(67%) saturate(3809%) hue-rotate(242deg) brightness(71%) contrast(89%);
+    -webkit-filter: brightness(0) saturate(100%) invert(19%) sepia(67%) saturate(3809%) hue-rotate(242deg) brightness(71%) contrast(89%);
+}
+
+.main_menu_3 .droap_menu li a:hover,
+.main_menu_3 .droap_menu li a.active {
+    color: var(--colorBlue);
+}
+
+.main_menu_3.menu_fix {
+    background: var(--colorBlue);
+    border-bottom: 1px solid #ffffff20;
+}
+
+.main_menu_3.menu_fix .navbar-nav {
+    line-height: 80px;
+    padding: 0px;
+    background: none;
+}
+
+.main_menu_3 .navbar-nav .nav-item:hover .nav-link,
+.main_menu_3 .navbar-nav .nav-item .nav-link.active {
+    color: var(--colorWhite);
+}
+
+/* MENU 3 END */
+
+
+/* BANNER 3 START */
+.banner_3 {
+    padding-top: 180px;
+    height: 95vh;
+}
+
+.banner_3 div {
+    height: auto;
+}
+
+.banner_3 .banner_text_3 h5 {
+    color: var(--colorPrimary);
+    font-family: var(--paraFont);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.36px;
+    border-radius: 180px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    padding: 7px 20px;
+    margin-bottom: 10px;
+}
+
+.banner_3 .banner_text_3 h1 {
+    font-size: 88px;
+    line-height: 105px;
+    margin-bottom: 30px;
+}
+
+.banner .banner_text a {
+    background: var(--colorBlue);
+    color: var(--colorWhite);
+}
+
+.banner .banner_text a:hover {
+    color: var(--colorBlack);
+}
+
+.banner .banner_text a::after {
+    color: var(--colorWhite);
+}
+
+.banner_3_videos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: end;
+}
+
+.banner_3_videos a {
+    background: url(../images/banner_3_video_img.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 190px;
+    height: 190px !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.banner_3_videos a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorRed);
+    opacity: .4;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.banner_3_videos a img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7487%) hue-rotate(340deg) brightness(106%) contrast(106%);
+    width: 30px !important;
+    height: 35px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* BANNER 3 END */
+
+
+/* FUN FACT 3 START */
+.fun_fact_3 {
+    background: var(--colorBlue);
+    position: relative;
+}
+
+.fun_fact_3::after {
+    position: absolute;
+    content: "";
+    width: 550px;
+    height: 100%;
+    background: var(--colorBlue);
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.fun_fact_3_text {}
+
+.fun_fact_3_text li {
+    padding: 90px 0px;
+    border-right: 1px solid rgba(255, 255, 255, 0.20);
+    padding-right: 90px;
+}
+
+.fun_fact_3_text li:last-of-type {
+    border: none;
+    padding-right: 0;
+    padding-left: 100px;
+}
+
+.fun_fact_3_text li h2 {
+    color: var(--colorWhite);
+    font-size: 70px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 7px;
+}
+
+.fun_fact_3_text li h2::after {
+    position: absolute;
+    content: "+";
+    width: 100%;
+    height: 100%;
+    color: var(--colorWhite);
+    font-size: 70px;
+    font-weight: 700;
+    top: 0;
+    left: -6px;
+}
+
+.fun_fact_3_text li p {
+    color: var(--colorWhite);
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: 140px;
+}
+
+.fun_fact_3_img {
+    position: relative;
+    margin-left: 100px;
+    margin-top: -271px;
+}
+
+.fun_fact_3_img .img {
+    width: 590px;
+    height: 590px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-top-left-radius: 0;
+}
+
+.fun_fact_3_img .main_icon {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: var(--colorWhite);
+    border-radius: 50%;
+    padding: 50px 50px 50px 40px;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    z-index: 2;
+}
+
+.fun_fact_3_img .main_icon:hover img {
+    filter: brightness(0) saturate(100%) invert(18%) sepia(27%) saturate(6399%) hue-rotate(237deg) brightness(98%) contrast(95%);
+}
+
+/* FUN FACT 3 END */
+
+
+/* ABOUT 3 START */
+.about_us_3 {}
+
+.about_us_3_bg {
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+}
+
+.about_us_3_img {}
+
+.about_us_3_text {}
+
+.about_us_3_text .nav-pills {}
+
+.about_us_3_text .nav-pills .nav-item {}
+
+.about_us_3_text .nav-pills .nav-item button {}
+
+.about_us_3_text .nav-pills .nav-item button:hover,
+.about_us_3_text .nav-pills .nav-item button.active {}
+
+.about_3_text_box {}
+
+.about_3_text_box h1,
+.about_3_text_box h2,
+.about_3_text_box h3,
+.about_3_text_box h4,
+.about_3_text_box h5,
+.about_3_text_box h6 {}
+
+.about_3_text_box p {}
+
+.about_3_text_box a {
+    background: var(--colorBlue) !important;
+    color: var(--colorWhite);
+}
+
+.about_3_text_box a:hover {
+    /* color: var(--colorBlack); */
+}
+
+.about_3_text_box a::after {
+    background: var(--colorBlack);
+}
+
+.about_3_text_box a i {
+    transform: rotate(0deg);
+}
+
+.about_3_text_box ul,
+.about_3_text_box ol {}
+
+.about_3_text_box ul li,
+.about_3_text_box ol li {}
+
+.about_3_text_box ul li::after,
+.about_3_text_box ol li::after {}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ABOUT 3 END */
 
 
 
