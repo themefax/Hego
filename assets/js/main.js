@@ -222,8 +222,86 @@ $(function () {
     });
 
 
+    // TESTIMONIAL 3 SLIDER
+    $('.testimonial_3_slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-chevron-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
 
 
+    // BLOG 3 SLIDER
+    $('.blog_3_slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: true,
+        centerMode: true,
+        centerPadding: '60px',
+        nextArrow: '<i class="far fa-chevron-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-chevron-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
 
 
 
