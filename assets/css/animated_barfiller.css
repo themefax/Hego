@@ -1,0 +1,30 @@
+.barfiller {
+  width: 100%;
+  height: 5px;
+  background: rgba(255, 115, 67, 0.20);
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.barfiller .fill {
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 100%;
+  background: #FF7343 !important;
+  z-index: 1;
+}
+
+.barfiller .tipWrap {
+  display: none;
+}
+
+.barfiller .tip {
+  margin-top: -30px;
+  color: var(--colorBlack);
+  left: 0px;
+  position: absolute;
+  z-index: 2;
+  font-size: 17px;
+  font-weight: 500;
+}

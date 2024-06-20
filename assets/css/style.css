@@ -3336,7 +3336,7 @@ footer {
 }
 
 .single_services_3 .text ul {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .single_services_3 .text ul li {
@@ -3388,8 +3388,6 @@ footer {
 .testimonial_3 {
     padding-left: 300px;
 }
-
-.testimonial_3 .section_heading {}
 
 .testimonial_3 .section_heading h2 {
     display: -webkit-box;
@@ -4003,21 +4001,20 @@ footer {
     text-align: center;
     background: var(--colorBlue);
     color: var(--colorWhite);
-    border-radius: 50%;
     font-size: 14px;
+    border-radius: 50%;
 }
 
-
-
-.sidebar_services {}
+.service_details_tags_share .details_share ul li a:hover {
+    background: var(--colorPrimary);
+    color: var(--colorBlack);
+}
 
 .sidebar_services ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
-.sidebar_services ul li {}
 
 .sidebar_services ul li a {
     width: 100%;
@@ -4092,8 +4089,470 @@ footer {
 ==================================*/
 
 
+/*==================================
+    TEAM DETAILS START
+==================================*/
+.team_details_text_top {
+    background: var(--lightBg);
+    padding: 30px 30px 30px 40px;
+    position: relative;
+    margin-bottom: 30px;
+    border: 1px solid #6e6e6e1f;
+}
+
+.team_details_text_top h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.team_details_text_top span {
+    font-family: var(--paraFont);
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    margin-top: 5px;
+}
+
+.team_details_text_top ul {
+    position: absolute;
+    gap: 8px;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.team_details_text_top ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--colorWhite);
+    border: 1px solid var(--borderColor);
+    color: var(--colorBlack);
+}
+
+.team_details_text_top ul li a:hover {
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.team_details_text p {
+    font-family: var(--paraFont);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.team_details_text .signature {
+    width: 140px;
+    height: 70px;
+    margin-top: 35px;
+}
+
+.team_details_education,
+.team_details_ecperience {
+    margin-top: 25px;
+}
+
+.team_details_education h3,
+.team_details_ecperience h3 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    margin-bottom: 15px;
+}
+
+.team_details_education ul li,
+.team_details_education ol li {
+    list-style: inside;
+    color: var(--paraColor);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.team_skills_bar_single p {
+    color: var(--colorBlack);
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
 
 
+
+
+.team_details_contact {
+    text-align: center;
+}
+
+.team_details_contact h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+.team_details_contact form {}
+
+.team_details_input {
+    margin-top: 20px;
+}
+
+.team_details_input>input,
+.team_details_input>textarea {
+    background: var(--lightBg);
+    border-radius: 0;
+    border: 1px solid #6e6e6e1f;
+    color: var(--colorBlack);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.team_details_input>input::placeholder,
+.team_details_input>textarea::placeholder {
+    color: var(--colorBlack);
+    opacity: .7;
+}
+
+.team_details_input .form-check {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.team_details_input .form-check label {
+    color: var(--paraColor);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.team_details_input .form-check input {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    border-radius: 0;
+}
+
+.team_details_input button {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.team_details_input button i {
+    transform: rotate(0deg);
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.team_details_input button:hover {
+    color: var(--colorBlack);
+}
+
+/*==================================
+    TEAM DETAILS END
+==================================*/
+
+
+/*==================================
+    PORTFOLIO DETAILS START
+==================================*/
+.portfolio_details {}
+
+.portfolio_details_thumbnail {
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.portfolio_details_content h1,
+.portfolio_details_content h2,
+.portfolio_details_content h3,
+.portfolio_details_content h4,
+.portfolio_details_content h5,
+.portfolio_details_content h6 {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.portfolio_details_content h1,
+.portfolio_details_content h2 {
+    font-size: 32px;
+}
+
+.portfolio_details_content h3,
+.portfolio_details_content h4 {
+    font-size: 28px;
+}
+
+.portfolio_details_content h5,
+.portfolio_details_content h6 {
+    font-size: 24px;
+}
+
+.portfolio_details_content p {
+    font-family: var(--paraFont);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.portfolio_details_content ul,
+.portfolio_details_content ol {
+    margin-top: 20px;
+}
+
+.portfolio_details_content ul li,
+.portfolio_details_content ol li {
+    list-style: inside;
+    font-family: var(--paraFont);
+    color: var(--paraColor);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 5px;
+}
+
+.portfolio_details_sidebar {
+    padding-left: 35px;
+}
+
+.sidebar_project_info {
+    margin-top: 23px;
+}
+
+.sidebar_project_info h3,
+.sidebar_project_tags h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sidebar_project_info ul {
+    background: var(--lightBg);
+    border: 1px solid #6e6e6e1f;
+}
+
+.sidebar_project_info ul li {
+    padding: 20px 25px;
+    border-bottom: 1px solid #6e6e6e1f;
+}
+
+.sidebar_project_info ul li:last-child {
+    border-bottom: 0;
+}
+
+.sidebar_project_info ul li p {
+    font-family: var(--paraFont);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sidebar_project_info ul li h5 {
+    font-family: var(--paraFont);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.sidebar_project_tags {
+    margin-top: 35px;
+}
+
+.sidebar_project_tags ul {
+    gap: 8px;
+}
+
+.sidebar_project_tags ul li a {
+    color: var(--paraColor);
+    font-family: var(--paraFont);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 15px;
+    border: 1px solid var(--borderColor);
+    text-transform: capitalize;
+}
+
+.sidebar_project_tags ul li a:hover {
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+    color: var(--colorBlack);
+}
+
+/*==================================
+    PORTFOLIO DETAILS END
+==================================*/
+
+
+/*==================================
+    PRICING START
+==================================*/
+.pricing_plan {}
+
+.single_pricing {
+    background: var(--lightBg);
+    margin-top: 25px;
+    border: 1px solid #6e6e6e1f;
+}
+
+.single_pricing_heading {
+    background: url(../images/pricing_header_bg.jpg);
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: var(--colorWhite);
+    font-size: 36px;
+    font-weight: 700;
+    padding: 40px 50px;
+}
+
+.single_pricing_heading p {
+    color: var(--colorWhite);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.single_pricing_heading h2 {
+    color: var(--colorWhite);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.single_pricing_heading h2 span {
+    color: var(--colorWhite);
+    text-transform: uppercase;
+    opacity: .7;
+}
+
+.single_pricing .text {
+    padding: 50px 50px 45px 50px;
+}
+
+.single_pricing .text ul {
+    margin-bottom: 40px;
+}
+
+.single_pricing .text ul li {
+    position: relative;
+    color: var(--colorBlack);
+    font-family: var(--paraFont);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.32px;
+    padding-left: 20px;
+}
+
+.single_pricing .text ul li::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: var(--colorBlack);
+    border-radius: 50%;
+    top: 15px;
+    left: 0;
+}
+
+.single_pricing .text a {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+}
+
+.single_pricing .text a:hover {
+    color: var(--colorBlack);
+}
+
+.single_pricing .text a::after {
+    background: var(--colorPrimary);
+}
+
+.single_pricing.active .common_btn {
+    background: var(--colorPrimary);
+    color: var(--colorBlack);
+}
+
+/*==================================
+    PRICING END
+==================================*/
+
+
+/*==================================
+    CHECKOUT START
+==================================*/
+.checkout {}
+
+.checkout_top {}
+
+.checkout_top p {
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid var(--borderColor);
+    margin-bottom: 10px;
+    padding: 25px 30px;
+}
+
+.checkout_top p a {
+    color: var(--colorRed);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+}
+
+.checkout_top p a:hover {
+    color: var(--colorBlack);
+    text-decoration: none;
+}
+
+
+
+
+
+
+.billing_details {}
+
+.billing_details form {}
+
+.checkout_single_input label {}
+
+.checkout_single_input input {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==================================
+    CHECKOUT END
+==================================*/
 
 
 
