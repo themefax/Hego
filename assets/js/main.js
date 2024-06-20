@@ -131,7 +131,7 @@ $(function () {
 
 
 
-    // TESTIMONIAL SLIDER
+    // TESTIMONIAL 2 SLIDER
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -304,7 +304,10 @@ $(function () {
     });
 
 
-
+    // STICKY SIDEBAR
+    $(".sticky_sidebar").stickit({
+        top: 70,
+    })
 
 
 
