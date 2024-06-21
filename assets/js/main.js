@@ -318,7 +318,10 @@ $(function () {
     });
 
 
-
+    // SELECT2 JS
+    $(document).ready(function () {
+        $('.select_2').select2();
+    });
 
 
 

@@ -76,7 +76,7 @@ textarea {
     border: 1px solid #E4E7E9;
     border-radius: 3px;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 input::placeholder,
@@ -86,6 +86,11 @@ textarea::placeholder {
 
 button {
     border: none;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 :root {
@@ -384,7 +389,7 @@ button {
     font-size: 14px;
     font-weight: 600;
     font-family: var(--paraFont);
-    padding: 10px 30px;
+    padding: 8px 30px 10px 30px;
 }
 
 .main_menu .menu_right_btn li a span {
@@ -4497,10 +4502,6 @@ footer {
 /*==================================
     CHECKOUT START
 ==================================*/
-.checkout {}
-
-.checkout_top {}
-
 .checkout_top p {
     font-size: 15px;
     font-weight: 500;
@@ -4523,37 +4524,296 @@ footer {
     text-decoration: none;
 }
 
+.billing_details h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.checkout_single_input {
+    margin-top: 20px;
+}
+
+.checkout_single_input label {
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    margin-bottom: 5px;
+}
+
+.checkout_single_input input {
+    border: 1px solid var(--borderColor);
+    border-radius: 0;
+    font-size: 15px;
+    padding: 13px 20px;
+}
+
+.checkout_single_input .select2-container {
+    width: 100% !important;
+}
+
+.checkout_single_input .select2-container--default .select2-selection--single {
+    border: 1px solid var(--borderColor);
+    border-radius: 0;
+    height: 50px;
+}
+
+.checkout_single_input .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: var(--colorBlack);
+    line-height: 50px;
+    padding-left: 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.checkout_payment_info {
+    border: 1px solid var(--borderColor);
+    padding: 25px 30px 30px 30px;
+    overflow: hidden;
+}
+
+.checkout_payment_info h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.checkout_payment_info ul li {
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.checkout_payment_info ul li span {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+    background: var(--colorPrimary);
+    color: var(--colorBlack);
+    padding: 2px 15px;
+}
+
+.checkout_payment_info hr {
+    border-top: 1px solid var(--borderColor);
+    opacity: 1;
+    width: 1000px;
+    margin: 30px 0px;
+    margin-left: -100px;
+}
+
+.checkout_payment_info .form-check {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.checkout_payment_info .form-check input {
+    padding: 0;
+    margin-top: 0px;
+}
+
+.checkout_payment_info .form-check label {
+    width: 100%;
+    color: var(--colorBlack);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.checkout_payment_info .checkout_bank_reansfer {
+    color: var(--paraColor);
+    font-family: var(--paraFont);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    border: 1px solid var(--borderColor);
+    padding: 10px 20px;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.checkout_payment_info .checkout_bank_reansfer::after {
+    position: absolute;
+    content: "";
+    top: -14px;
+    left: 25px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 13px solid #25272933;
+}
 
 
+.checkout_payment_info .form-check label .payment_card {
+    max-width: 200px;
+}
 
+.checkout_payment_info .form-check.condition label {
+    font-weight: 400;
+    color: var(--paraColor);
+}
 
+.checkout_payment_info .form-check.condition input {
+    border-radius: 0;
+}
 
-.billing_details {}
+.checkout_payment_info button {
+    margin-top: 15px;
+    background: var(--colorRed);
+    color: var(--colorWhite);
+}
 
-.billing_details form {}
-
-.checkout_single_input label {}
-
-.checkout_single_input input {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.checkout_payment_info button:hover {
+    color: var(--colorBlack);
+}
 
 /*==================================
     CHECKOUT END
 ==================================*/
 
+
+/*==================================
+    CONTACR US START
+==================================*/
+.contact_info {
+    background: var(--lightBg);
+    padding: 65px 35px 35px 35px;
+    position: relative;
+    margin-top: 60px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    border: 1px solid #6e6e6e1f;
+}
+
+.contact_info span {
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    background: var(--colorBlue);
+    text-align: center;
+    position: absolute;
+    top: -35px;
+    left: 35px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.contact_info span img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(62deg) brightness(99%) contrast(89%);
+}
+
+.contact_info:hover span {
+    background: var(--colorPrimary);
+}
+
+.contact_info:hover span img {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
+}
+
+.contact_info h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.contact_info a,
+.contact_info p {
+    display: block;
+    color: var(--colorBlack);
+    margin-top: 5px;
+}
+
+.contact_info a:hover {
+    font-weight: 600;
+}
+
+.contact_img {
+    height: 525px;
+    overflow: hidden;
+}
+
+.contact_form {
+    padding-left: 50px;
+}
+
+.contact_form h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.contact_form p {
+    font-family: var(--paraFont);
+    margin-bottom: 20px;
+}
+
+.contact_form_input {
+    margin-top: 20px;
+}
+
+.contact_form_input input,
+.contact_form_input textarea {
+    border-radius: 0;
+    border: 1px solid var(--borderColor);
+}
+
+.contact_form button {
+    background: var(--colorPrimary);
+    margin-top: 23px;
+}
+
+.contact_form button:hover {
+    color: var(--colorWhite);
+}
+
+.contact_form button::after {
+    background: var(--colorBlack);
+}
+
+.contact_map {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    margin-bottom: -215px;
+}
+
+.contact_map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*==================================
+    CONTACR US END
+==================================*/
 
 
 
