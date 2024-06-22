@@ -91,7 +91,7 @@ $(function () {
     $('.case_study_slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         dots: false,
         arrows: true,
@@ -99,6 +99,18 @@ $(function () {
         prevArrow: '<i class="far fa-chevron-left prevArrow"></i>',
 
         responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
             {
                 breakpoint: 1200,
                 settings: {
@@ -108,7 +120,7 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
             {
@@ -121,6 +133,7 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             }
         ]
@@ -131,7 +144,7 @@ $(function () {
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         arrows: false,
         dots: true,
         asNavFor: '.slider-nav'
@@ -141,7 +154,7 @@ $(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         asNavFor: '.slider-for',
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         dots: false,
         arrows: false,
@@ -172,7 +185,7 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
-                    arrows: false,
+
                 }
             }
         ]

@@ -51,7 +51,6 @@ span {
 }
 
 body {
-    position: relative;
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: var(--bodyFont);
@@ -161,11 +160,14 @@ button {
 /* COMMON BUTTON END */
 
 .title {
-    display: block;
     color: var(--colorBlack);
     font-size: 22px;
     font-weight: 700;
     letter-spacing: -0.4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .title:hover {
@@ -419,6 +421,7 @@ button {
     visibility: hidden;
     max-height: 450px;
     overflow: hidden auto;
+    z-index: 9;
     transition: all 0.15s linear 0s;
     -webkit-transition: all 0.15s linear 0s;
     -moz-transition: all 0.15s linear 0s;
@@ -522,7 +525,6 @@ button {
     padding: 0;
     color: var(--colorBlack);
     font-size: 16px;
-    margin-right: 12px;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -552,6 +554,9 @@ button {
 /* BANNER START */
 .banner {
     height: 100vh;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .banner div {
@@ -563,7 +568,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .banner .banner_text h1 {
@@ -606,6 +611,7 @@ button {
 
 .banner .banner_img .img {
     height: 560px;
+    margin-top: 70px;
 }
 
 /* BANNER END */
@@ -614,7 +620,7 @@ button {
 /* SERVICES START */
 .single_services {
     margin-top: 25px;
-    padding: 50px 25px;
+    padding: 40px 25px;
     text-align: center;
     position: relative;
     background: var(--colorWhite);
@@ -653,7 +659,7 @@ button {
     font-weight: 500;
     letter-spacing: -0.3px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .single_services::after {
@@ -909,6 +915,7 @@ button {
 .text_slider {
     background: var(--colorBlack);
     padding: 40px 0px;
+    overflow: hidden;
 }
 
 .text_slider .marquee_animi ul {
@@ -1075,6 +1082,10 @@ button {
 
 
 /* TESTIMONIAL START */
+.testimonial {
+    overflow: hidden;
+}
+
 .single_testimonial_bg {
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -1509,9 +1520,6 @@ footer {
     background-size: cover !important;
     background-repeat: no-repeat !important;
     padding: 45px 100px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
     position: relative;
     top: -95px;
 }
@@ -1794,6 +1802,9 @@ footer {
     background: var(--colorYellowLight);
 }
 
+.home_2 .navbar-toggler {
+    background: var(--colorYellowLight);
+}
 
 /* MENU 2 START */
 .main_menu_2 .menu_right_btn li {
@@ -1997,6 +2008,10 @@ footer {
 
 
 /* ABOUT 2 START */
+.about_2 {
+    overflow: hidden;
+}
+
 .about_2_img {
     position: relative;
     z-index: 1;
@@ -2167,6 +2182,7 @@ footer {
     height: 35px;
     top: 60px;
     left: -130px;
+    z-index: 9;
 }
 
 .about_2_text .top span {
@@ -2379,6 +2395,10 @@ footer {
 
 
 /* AWARDS START */
+.awards {
+    overflow: hidden;
+}
+
 .awar_text {
     position: relative;
     padding-right: 55px;
@@ -2449,7 +2469,7 @@ footer {
 .awards_list ul li p,
 .awards_list ul li p b {
     font-family: var(--bodyFont);
-    font-size: large;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
 }

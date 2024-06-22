@@ -1,20 +1,374 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {}
+@media (min-width: 1600px) and (max-width: 1800px) {
+
+    .case_studies .nextArrow,
+    .case_studies .prevArrow {
+        right: 130px;
+    }
+
+    .case_studies .prevArrow {
+        right: 180px;
+    }
+
+    .single_case_studies {
+        height: 475px;
+    }
+
+    .awar_text::after {
+        font-size: 120px;
+        bottom: -175px;
+        left: -90px;
+    }
+
+
+}
 
 
 
-@media (min-width: 992px) and (max-width: 1199.99px) {}
+@media (min-width: 1400px) and (max-width: 1600px) {
 
 
 
-@media (min-width: 768px) and (max-width: 991.99px) {}
+    .single_case_studies {
+        height: 555px;
+    }
+
+    .case_studies .nextArrow,
+    .case_studies .prevArrow {
+        right: 40px;
+    }
+
+    .case_studies .prevArrow {
+        right: 90px;
+    }
+
+    .awar_text::after {
+        font-size: 100px;
+        bottom: -165px;
+        left: 0;
+    }
+
+
+}
 
 
 
-@media (min-width: 576px) and (max-width: 767.99px) {}
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+
+    /*=============================
+        HOME PAGE 01 START
+    ==============================*/
+    .banner .banner_text h1 {
+        font-size: 96px;
+        line-height: initial;
+    }
+
+    .banner .banner_img .img {
+        height: 480px;
+    }
+
+    .banner .banner_text {
+        padding-top: 45px;
+    }
+
+    .single_services {
+        padding: 30px 20px;
+    }
+
+    .single_services p {
+        margin-bottom: 5px;
+    }
+
+    .section_heading h2 {
+        font-size: 56px;
+    }
+
+    .single_portfolio .img {
+        height: 225px;
+    }
+
+    .about_img {
+        height: 450px;
+    }
+
+    .single_testimonial_bg {
+        padding: 70px 50px;
+    }
+
+    .testimonial_text {
+        padding-left: 30px;
+    }
+
+    .single_blog_img {
+        height: 270px;
+    }
+
+    /*=============================
+        HOME PAGE 01 END
+    ==============================*/
+
+
+    /*=============================
+        HOME PAGE 02 START
+    ==============================*/
+    .banner_2 .banner_img .img {
+        height: 710px;
+    }
+
+    .single_services_2 {
+        padding: 45px 30px;
+    }
+
+    .about_2_img .text {
+        right: 50px;
+    }
+
+    .case_studies .nextArrow,
+    .case_studies .prevArrow {
+        right: 12px;
+    }
+
+    .case_studies .prevArrow {
+        right: 62px;
+    }
+
+    .single_case_studies {
+        height: 470px;
+    }
+
+    .awar_text::after {
+        font-size: 100px;
+        bottom: -180px;
+        left: 0;
+    }
+
+    .single_team_img {
+        height: 295px;
+    }
+
+    .blog_img_2 {
+        height: 225px;
+    }
+
+    .blog_text_2 ul li {
+        font-size: 14px;
+        margin-right: 14px;
+    }
 
 
 
-@media (max-width: 575.99px) {
+
+
+    /*=============================
+        HOME PAGE 02 END
+    ==============================*/
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+    /*=============================
+        HOME PAGE 01 START
+    ==============================*/
+    .main_menu .navbar-nav .nav-item .nav-link {
+        padding: 0px 15px;
+    }
+
+    .banner .banner_text {
+        padding-top: 55px;
+    }
+
+    .banner .banner_text h1,
+    .banner .banner_text h1 span {
+        font-size: 80px;
+        line-height: initial;
+    }
+
+    .banner .banner_img .img {
+        height: 415px;
+        margin-top: 70px;
+    }
+
+    .single_services {
+        padding: 31px 20px;
+    }
+
+    .single_services p {
+        margin-bottom: 15px;
+    }
+
+    .faq_img .img_1 {
+        width: 380px;
+        height: 460px;
+    }
+
+    .section_heading h2 {
+        font-size: 46px;
+    }
+
+    .faq_img .img_2 {
+        width: 260px;
+        height: 370px;
+    }
+
+    .accordian_area .accordion-header button {
+        font-size: 17px;
+    }
+
+    .single_portfolio .img {
+        height: 290px;
+    }
+
+    .about_img {
+        height: 455px;
+    }
+
+    .testimonial_text {
+        padding-left: 25px;
+    }
+
+    .single_testimonial_bg {
+        padding: 60px 30px;
+    }
+
+    .single_blog_img {
+        height: 345px;
+    }
+
+    .footer_mailbox {
+        padding: 45px 60px;
+    }
+
+    .footer_link ul li a {
+        margin-top: 17px;
+    }
+
+    /*=============================
+        HOME PAGE 01 END
+    ==============================*/
+
+
+    /*=============================
+        HOME PAGE 02 START
+    ==============================*/
+    .banner_2 {
+        /* height: auto; */
+    }
+
+    .banner_2 .banner_img .img {
+        height: 590px;
+    }
+
+    .banner_2 .banner_img .text {
+        padding: 30px 30px 25px 40px;
+    }
+
+    .single_services_2 {
+        padding: 40px 25px;
+    }
+
+    .single_services_2 .title {
+        font-size: 20px;
+    }
+
+    .about_2_img .img {
+        width: 400px;
+        height: 385px;
+    }
+
+    .about_2_img .text h2 {
+        font-size: 80px;
+        line-height: initial;
+    }
+
+    .about_2_img .text {
+        bottom: 50px;
+        right: 0;
+        padding: 25px;
+    }
+
+    .about_2_img .text P {
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    .about_2_img::before {
+        width: 430px;
+        height: 290px;
+        left: 0;
+    }
+
+    .about_2_img::after {
+        width: 450px;
+        height: 500px;
+        left: 0;
+    }
+
+    .about_2_text .top::after {
+        width: 75px;
+        height: 21px;
+        top: 90px;
+        left: -55px;
+    }
+
+    .awar_text {
+        padding-right: 0;
+    }
+
+    .awar_text::after {
+        font-size: 90px;
+        bottom: -160px;
+        left: 0;
+    }
+
+    .single_team_img {
+        height: 330px;
+    }
+
+    .blog_img_2 {
+        height: 290px;
+    }
+
+    .footer_link h4,
+    .footer_subscription h4,
+    .footer_gallery h4 {
+        font-size: 20px;
+    }
+
+    .case_studies .nextArrow,
+    .case_studies .prevArrow {
+        top: -80px;
+        right: 13px;
+    }
+
+    .case_studies .prevArrow {
+        right: 63px;
+    }
+
+    .single_case_studies {
+        height: 590px;
+    }
+
+    /*=============================
+        HOME PAGE 02 END
+    ==============================*/
+
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
 
     /*=============================
         HOME PAGE 01 START
@@ -54,11 +408,770 @@
 
     .banner {
         height: auto;
-        padding-top: 115px;
+        padding-top: 125px;
         padding-bottom: 100px;
     }
 
     .banner .banner_text h1 {
+        /* font-size: 72px; */
+        /* line-height: initial; */
+    }
+
+    .banner .banner_img {
+        justify-content: center;
+    }
+
+    .banner .banner_img .img {
+        height: 550px;
+    }
+
+    .banner .banner_text {
+        margin-bottom: 30px;
+    }
+
+    .section_heading h2 {
+        font-size: 44px;
+    }
+
+    .services .section_heading .common_btn {
+        /* display: none; */
+    }
+
+    .single_services {
+        /* padding: 30px; */
+    }
+
+    .single_services p {
+        margin-bottom: 10px;
+    }
+
+    .faq_img .img_1 {
+        /* width: 435px; */
+        /* height: auto; */
+    }
+
+    .faq_img .img_2 {
+        /* width: 300px; */
+        /* height: 425px; */
+        /* right: 0; */
+    }
+
+    .faq .faq_text {
+        margin-top: 25px;
+    }
+
+    .accordion-button::after {
+        top: 15px;
+    }
+
+    .filter_btn {
+        gap: 10px 15px;
+    }
+
+    .filter_btn button {
+        font-size: 14px;
+    }
+
+    .single_portfolio .img {
+        height: 210px;
+    }
+
+    .text_slider .marquee_animi ul li {
+        font-size: 34px;
+    }
+
+    .text_slider .marquee_animi ul li::after {
+        top: 0px;
+    }
+
+    .about_text p {
+        font-size: 16px;
+    }
+
+    .about_text .about_video {
+        margin-top: 31px;
+        margin-bottom: 50px;
+    }
+
+    .about_img {
+        height: 455px;
+    }
+
+    .single_testimonial_bg {
+        /* padding: 50px 30px; */
+    }
+
+    .single_testimonial .client_text {
+        /* font-size: 16px; */
+    }
+
+    .testimonial_text {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .counter ul li {
+        /* width: 100%; */
+        /* border-right: 0; */
+        /* border-bottom: 1px solid #11101315; */
+        /* padding: 30px 0px; */
+    }
+
+    .call_to_action_text .text {
+        width: 100%;
+    }
+
+    .call_to_action_img {
+        height: 480px;
+        margin-top: 25px;
+    }
+
+    .single_blog_img {
+        height: 255px;
+    }
+
+    .footer_mailbox {
+        padding: 45px;
+    }
+
+    .footer_mailbox h2 {
+        font-size: 34px;
+    }
+
+    .footer_mailbox .mail {
+        padding-left: 80px;
+        margin-top: 15px;
+    }
+
+    .footer_mailbox .mail .icon {
+        width: 65px;
+        height: 65px;
+        padding: 13px;
+        top: -2px;
+    }
+
+    .footer_mailbox .mail a {
+        /* font-size: 17px; */
+    }
+
+    .footer_info,
+    .footer_link {
+        margin-bottom: 50px;
+    }
+
+    .footer_info p {
+        margin-bottom: 20px;
+    }
+
+    .footer_subscription form {
+        margin-top: 35px;
+    }
+
+    .progress-wrap {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .footer_copyright p span,
+    .footer_copyright p a {
+        margin-bottom: 15px;
+    }
+
+    .main_menu .droap_menu {
+        left: 22px;
+        max-height: 250px;
+    }
+
+    /*=============================
+        HOME PAGE 01 END
+    ==============================*/
+
+
+
+    /*=============================
+        HOME PAGE 02 START
+    ==============================*/
+    .banner_2 .banner_text p {
+        max-width: 100%;
+    }
+
+    .banner_2 {
+        padding-top: 85px;
+        padding-bottom: 0;
+    }
+
+    .banner_2 .banner_img .img {
+        margin-top: 0;
+        height: 655px;
+    }
+
+    .single_services_2 {
+        padding: 50px 30px;
+    }
+
+    .single_services_2 .title {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .single_services_2 p {
+        margin-bottom: 30px;
+    }
+
+    /* .about_2_img .img {
+        width: 440px;
+        height: 420px;
+    } */
+
+    .about_2_img .text h2 {
+        font-size: 100px;
+        line-height: initial;
+    }
+
+    .about_2_img .text {
+        /* padding: 20px; */
+        /* right: 5px; */
+        bottom: -30px;
+    }
+
+    .about_2_img .text P {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .about_2_img .bottom,
+    .about_2_img::after,
+    .about_2_img::before,
+    .awar_text::after,
+    .client_feedback_text_right {
+        display: none;
+    }
+
+    .about_2_img .text h2 span {
+        top: 0;
+        right: -25px;
+    }
+
+    .about_2_text .top span {
+        width: 65px;
+        height: 65px;
+    }
+
+    .about_2_text {
+        margin-top: 25px;
+    }
+
+    .single_case_studies {
+        height: 445px;
+    }
+
+    .case_studies_contact_text p {
+        /* font-size: 18px; */
+    }
+
+    .awar_text {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .awards_list ul li {
+        /* padding: 20px; */
+    }
+
+    .single_team_img {
+        height: 380px;
+    }
+
+    .testimonial_description_2 {
+        padding-top: 20px;
+        padding-left: 12px;
+        margin-top: 20px;
+    }
+
+    .testimonial_item_title {
+        margin-top: 0;
+    }
+
+    .testimonial_description_2 p {
+        font-size: 18px;
+    }
+
+    .blog_2 .section_heading .common_btn {
+        display: none;
+    }
+
+    .blog_img_2 {
+        height: 215px;
+    }
+
+    .case_studies .nextArrow,
+    .case_studies .prevArrow {
+        right: 14px;
+        top: -85px;
+    }
+
+    .case_studies .prevArrow {
+        right: 64px;
+    }
+
+    .testimonial_description_2::after {
+        display: none;
+    }
+
+    .testimonial_2 .slick-dots {
+        bottom: -10px;
+    }
+
+    .single_team_text .title {
+        font-size: 20px;
+    }
+
+    .banner_2 .banner_text h1,
+    .banner_2 .banner_text h1 span {
+        font-size: 72px;
+    }
+
+    .navbar-toggler {
+        margin-right: 12px;
+    }
+
+    /*=============================
+        HOME PAGE 02 END
+    ==============================*/
+
+
+
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    /*=============================
+        HOME PAGE 01 START
+    ==============================*/
+    /* menu start */
+    .main_menu {
+        height: 60px;
+    }
+
+    .main_menu .container {
+        padding: 2px 0px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 50px;
+        background: var(--colorBlue);
+        padding-top: 10px;
+        border-bottom: 1px solid #eeeeee6b;
+        padding-bottom: 10px;
+    }
+
+    .main_menu .menu_right_btn {
+        background: var(--colorBlue);
+        padding: 20px;
+    }
+
+    .main_menu #navbarNav {
+        margin-top: 10px;
+    }
+
+    /* menu end */
+
+    .banner {
+        height: auto;
+        padding-top: 115px;
+        padding-bottom: 100px;
+    }
+
+    .banner .banner_text h1,
+    .banner .banner_text h1 span {
+        font-size: 72px;
+        line-height: initial;
+    }
+
+    .banner .banner_img {
+        justify-content: center;
+    }
+
+    .banner .banner_img .img {
+        height: 550px;
+    }
+
+    .banner .banner_text {
+        margin-bottom: 30px;
+    }
+
+    .section_heading h2 {
+        font-size: 38px;
+    }
+
+    .counter ul li p {
+        font-size: 14px;
+    }
+
+    .services .section_heading .common_btn {
+        display: none;
+    }
+
+    .single_services {
+        padding: 30px;
+    }
+
+    .single_services p {
+        margin-bottom: 10px;
+    }
+
+    .faq_img .img_1 {
+        width: 390px;
+        height: 470px;
+    }
+
+    .faq_img .img_2 {
+        width: 300px;
+        height: 425px;
+        right: 0;
+    }
+
+    .faq .faq_text {
+        margin-top: 25px;
+    }
+
+    .accordian_area .accordion-header button {
+        font-size: 18px;
+    }
+
+    .accordion-button::after {
+        top: 15px;
+    }
+
+    .filter_btn {
+        width: 100%;
+        justify-content: center;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .single_portfolio .img {
+        height: 325px;
+    }
+
+    .text_slider .marquee_animi ul li {
+        font-size: 34px;
+    }
+
+    .text_slider .marquee_animi ul li::after {
+        top: 0px;
+    }
+
+    .about_text p {
+        font-size: 16px;
+    }
+
+    .about_text .about_video {
+        margin-top: 31px;
+        margin-bottom: 50px;
+    }
+
+    .about_img {
+        height: 515px;
+    }
+
+    .single_testimonial_bg {
+        padding: 50px 30px;
+    }
+
+    .single_testimonial .client_text {
+        /* font-size: 16px; */
+    }
+
+    .testimonial_text {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .counter ul li {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid #11101315;
+        padding: 30px 0px;
+    }
+
+    .call_to_action_text .text {
+        width: 100%;
+    }
+
+    .call_to_action_img {
+        height: 480px;
+        margin-top: 25px;
+    }
+
+    .single_blog_img {
+        height: 390px;
+    }
+
+    .footer_mailbox {
+        padding: 35px;
+    }
+
+    .footer_mailbox h2 {
+        font-size: 26px;
+    }
+
+    .footer_mailbox .mail {
+        padding-left: 80px;
+        margin-top: 15px;
+    }
+
+    .footer_mailbox .mail .icon {
+        width: 65px;
+        height: 65px;
+        padding: 13px;
+        top: -2px;
+    }
+
+    .footer_mailbox .mail a {
+        /* font-size: 17px; */
+    }
+
+    .footer_info,
+    .footer_link {
+        margin-bottom: 50px;
+    }
+
+    .footer_info p {
+        margin-bottom: 20px;
+    }
+
+    .footer_subscription form {
+        margin-top: 35px;
+    }
+
+    .progress-wrap {
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .footer_copyright p span,
+    .footer_copyright p a {
+        margin-bottom: 15px;
+    }
+
+    .main_menu .droap_menu {
+        left: 22px;
+        max-height: 250px;
+    }
+
+    /*=============================
+        HOME PAGE 01 END
+    ==============================*/
+
+
+
+    /*=============================
+        HOME PAGE 02 START
+    ==============================*/
+    .banner_2 .banner_text p {
+        max-width: 100%;
+    }
+
+    .banner_2 {
+        padding-top: 85px;
+        padding-bottom: 0;
+    }
+
+    .banner_2 .banner_img .img {
+        margin-top: 0;
+        height: 655px;
+    }
+
+    .single_services_2 {
+        padding: 40px 30px;
+    }
+
+    .single_services_2 .title {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .single_services_2 p {
+        margin-bottom: 30px;
+    }
+
+    .about_2_img .img {
+        width: 440px;
+        height: 420px;
+    }
+
+    .about_2_img .text h2 {
+        font-size: 100px;
+        line-height: initial;
+    }
+
+    .about_2_img .text {
+        padding: 20px;
+        right: 5px;
+        bottom: -30px;
+    }
+
+    .about_2_img .text P {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .about_2_img .bottom,
+    .about_2_img::after,
+    .about_2_img::before,
+    .awar_text::after,
+    .client_feedback_text_right {
+        display: none;
+    }
+
+    .about_2_img .text h2 span {
+        top: 0;
+        right: -25px;
+    }
+
+    .about_2_text .top span {
+        width: 65px;
+        height: 65px;
+    }
+
+    .about_2_text {
+        margin-top: 25px;
+    }
+
+    .single_case_studies {
+        height: 675px;
+    }
+
+    .case_studies_contact_text p {
+        font-size: 18px;
+    }
+
+    .awar_text {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .awards_list ul li {
+        padding: 20px;
+    }
+
+    .single_team_img {
+        height: 275px;
+    }
+
+    .testimonial_description_2 {
+        padding-top: 20px;
+        padding-left: 12px;
+        margin-top: 20px;
+    }
+
+    .testimonial_item_title {
+        margin-top: 0;
+    }
+
+    .testimonial_description_2 p {
+        font-size: 18px;
+    }
+
+    .blog_2 .section_heading .common_btn {
+        display: none;
+    }
+
+    .blog_img_2 {
+        height: 325px;
+    }
+
+    .case_studies .nextArrow,
+    .case_studies .prevArrow {
+        right: 14px;
+        top: -85px;
+    }
+
+    .case_studies .prevArrow {
+        right: 64px;
+    }
+
+    .testimonial_description_2::after {
+        display: none;
+    }
+
+    .testimonial_2 .slick-dots {
+        bottom: -10px;
+    }
+
+    .single_team_text .title {
+        font-size: 20px;
+    }
+
+    .navbar-toggler {
+        margin-right: 12px;
+    }
+
+    /*=============================
+        HOME PAGE 02 END
+    ==============================*/
+
+
+}
+
+
+
+@media (max-width: 575.99px) {
+
+    /*=============================
+        HOME PAGE 01 START
+    ==============================*/
+    /* menu start */
+    .main_menu {
+        height: 60px;
+    }
+
+    .main_menu .container {
+        padding: 2px 0px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .navbar-toggler {
+        margin-right: 12px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 50px;
+        background: var(--colorBlue);
+        padding-top: 10px;
+        border-bottom: 1px solid #eeeeee6b;
+        padding-bottom: 10px;
+    }
+
+    .main_menu .menu_right_btn {
+        background: var(--colorBlue);
+        padding: 20px;
+    }
+
+    .main_menu #navbarNav {
+        margin-top: 10px;
+    }
+
+    /* menu end */
+
+    .banner {
+        height: auto;
+        padding-top: 115px;
+        padding-bottom: 100px;
+    }
+
+    .banner .banner_text h1,
+    .banner .banner_text h1 span {
         font-size: 52px;
         line-height: initial;
     }
@@ -72,7 +1185,7 @@
     }
 
     .section_heading h2 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .services .section_heading .common_btn {
@@ -111,6 +1224,7 @@
     }
 
     .filter_btn {
+        width: 100%;
         gap: 10px 20px;
         justify-content: center;
         padding: 30px 0px 30px 0px;
@@ -208,20 +1322,187 @@
         margin-top: 35px;
     }
 
+    .progress-wrap {
+        right: 15px;
+        bottom: 15px;
+    }
 
+    .footer_copyright p span,
+    .footer_copyright p a {
+        margin-bottom: 15px;
+    }
 
+    .main_menu .droap_menu {
+        left: 22px;
+        max-height: 250px;
+    }
 
-
-
-
-
-
-
-
+    /*=============================
+        HOME PAGE 01 END
+    ==============================*/
 
 
     /*=============================
-    HOME PAGE 01 START
+        HOME PAGE 02 START
+    ==============================*/
+    .banner_2 .banner_text p {
+        max-width: 100%;
+    }
+
+    .banner_2 {
+        padding-top: 85px;
+        padding-bottom: 0;
+    }
+
+    .banner_2 .banner_img .img {
+        margin-top: 0;
+    }
+
+    .banner_2 .banner_img .text {
+        padding: 20px 20px 15px 20px;
+    }
+
+    .single_services_2 {
+        padding: 40px 30px;
+    }
+
+    .single_services_2 .title {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .single_services_2 p {
+        margin-bottom: 30px;
+    }
+
+    .about_2_img .img {
+        width: auto;
+        height: auto;
+    }
+
+    .about_2_img .text h2 {
+        font-size: 100px;
+        line-height: initial;
+    }
+
+    .about_2_img .text {
+        padding: 20px;
+        right: 5px;
+        bottom: -10px;
+    }
+
+    .about_2_img .text P {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .about_2_img .bottom,
+    .about_2_img::after,
+    .about_2_img::before,
+    .awar_text::after,
+    .client_feedback_text_right {
+        display: none;
+    }
+
+    .about_2_img .text h2 span {
+        top: 0;
+        right: -25px;
+    }
+
+    .about_2_text .top span {
+        width: 65px;
+        height: 65px;
+    }
+
+    .about_2_text {
+        margin-top: 25px;
+    }
+
+    .single_case_studies {
+        height: auto;
+    }
+
+    .case_studies_contact_text p {
+        font-size: 18px;
+    }
+
+    .awar_text {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .awards_list ul li {
+        padding: 20px;
+    }
+
+    .awards_list ul li p,
+    .awards_list ul li p b,
+    .awards_list ul li span {
+        font-size: 12px;
+    }
+
+    .single_team_img {
+        height: auto;
+    }
+
+    .testimonial_description_2 {
+        padding-top: 20px;
+        padding-left: 12px;
+        margin-top: 20px;
+    }
+
+    .testimonial_item_title {
+        margin-top: 0;
+    }
+
+    .testimonial_description_2 p {
+        font-size: 18px;
+    }
+
+    .blog_2 .section_heading .common_btn {
+        display: none;
+    }
+
+    .blog_img_2 {
+        height: auto;
+    }
+
+    .blog_text_2 {
+        padding: 20px;
+    }
+
+    .blog_text_2 ul li {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .single_case_studies .text {
+        padding: 10px;
+    }
+
+    .single_case_studies .text_bg {
+        padding: 15px;
+    }
+
+    .single_case_studies .text span {
+        display: none;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .testimonial_description_2::after,
+    .testimonial_2_img_area {
+        display: none;
+    }
+
+    .testimonial_2 .slick-dots {
+        bottom: -10px;
+    }
+
+    /*=============================
+        HOME PAGE 02 END
     ==============================*/
 
 
