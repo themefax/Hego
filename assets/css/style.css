@@ -131,6 +131,10 @@ button {
     font-size: 15px;
     margin-left: 5px;
     transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
 }
 
 .common_btn::after {
@@ -410,9 +414,9 @@ button {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.15s linear 0s;
     max-height: 450px;
     overflow: hidden auto;
+    transition: all 0.15s linear 0s;
     -webkit-transition: all 0.15s linear 0s;
     -moz-transition: all 0.15s linear 0s;
     -ms-transition: all 0.15s linear 0s;
@@ -426,7 +430,7 @@ button {
 }
 
 .main_menu .droap_menu::-webkit-scrollbar-thumb {
-    background: var(--colorBlack);
+    background: var(--colorBlue);
 }
 
 .main_menu .droap_menu li a {
@@ -456,11 +460,11 @@ button {
     left: -5px;
     opacity: 0;
     transform: translateY(-50%);
-    transition: all 0.3s linear 0s;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
+    transition: all 0.3s linear 0s;
     -webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
     -ms-transition: all 0.3s linear 0s;
@@ -549,6 +553,10 @@ button {
 .banner .banner_text i {
     font-size: 13px;
     transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
 }
 
 .banner .banner_img {
@@ -1044,8 +1052,8 @@ button {
     height: 455px;
     top: 50%;
     right: -170px;
-    transform: translateY(-50%);
     z-index: -1;
+    transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1140,12 +1148,12 @@ button {
     background: #ffffff14;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -1573,12 +1581,12 @@ footer {
     height: 1px;
     background: currentColor;
     transform-origin: right top;
-    transform: scale(0, 1);
     transition: transform 0.4s cubic-bezier(0.74, 0.72, 0.27, 0.24);
     -webkit-transition: transform 0.4s cubic-bezier(0.74, 0.72, 0.27, 0.24);
     -moz-transition: transform 0.4s cubic-bezier(0.74, 0.72, 0.27, 0.24);
     -ms-transition: transform 0.4s cubic-bezier(0.74, 0.72, 0.27, 0.24);
     -o-transition: transform 0.4s cubic-bezier(0.74, 0.72, 0.27, 0.24);
+    transform: scale(0, 1);
     -webkit-transform: scale(0, 1);
     -moz-transform: scale(0, 1);
     -ms-transform: scale(0, 1);
@@ -1655,7 +1663,6 @@ footer {
     position: absolute;
     top: 50%;
     right: 7px;
-    transform: translateY(-50%);
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -1669,6 +1676,11 @@ footer {
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
     padding-right: 2px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 .footer_subscription form button:hover {
@@ -2301,8 +2313,12 @@ footer {
     text-transform: uppercase;
     text-decoration: underline;
     text-underline-offset: 5px;
-    transition: all linear .3s;
     font-family: var(--bodyFont);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
 .case_studies_contact_text a:hover {
@@ -2311,6 +2327,10 @@ footer {
 
 .single_case_studies:hover img {
     transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 /* CASE STUDIES END */
@@ -2980,6 +3000,10 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 /* BANNER 3 END */
@@ -3070,8 +3094,8 @@ footer {
     z-index: 2;
 }
 
-.fun_fact_3_img .main_icon:hover img {
-    filter: brightness(0) saturate(100%) invert(18%) sepia(27%) saturate(6399%) hue-rotate(237deg) brightness(98%) contrast(95%);
+.fun_fact_3_img .main_icon:hover {
+    background: var(--colorPrimary);
 }
 
 /* FUN FACT 3 END */
@@ -3141,6 +3165,10 @@ footer {
 
 .about_3_text_box a i {
     transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
 }
 
 .about_3_text_box ul,
@@ -3525,13 +3553,13 @@ footer {
     left: 0;
     padding: 20px;
     background: #3d33a77d;
-    transition: all linear .3s;
     z-index: 1;
-    transform: scale(.8);
+    transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
+    transform: scale(.8);
     -webkit-transform: scale(.8);
     -moz-transform: scale(.8);
     -ms-transform: scale(.8);
@@ -3544,7 +3572,6 @@ footer {
     font-size: 16px;
     font-weight: 400;
     color: var(--colorWhite);
-    /* margin-bottom: 10px; */
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
     -moz-transition: all linear .3s;
@@ -3858,12 +3885,16 @@ footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     width: 120px;
     height: 120px;
     background: var(--colorPrimary);
     border-radius: 50%;
     padding: 50px;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 .service_details_title {
@@ -4218,9 +4249,13 @@ footer {
 }
 
 .team_details_input button i {
-    transform: rotate(0deg);
     margin-left: 0;
     margin-right: 10px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
 }
 
 .team_details_input button:hover {
@@ -5237,7 +5272,6 @@ footer {
 
 .blog_sidebar_product ul li .text a {
     color: var(--colorBlack);
-    /* font-family: var(--headingFont); */
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -5598,11 +5632,6 @@ footer {
     margin-bottom: 0;
 }
 
-/* .form-check-input:checked {
-    border-color: var(--colorPrimary);
-    background-color: var(--colorPrimary);
-} */
-
 .form-check-input:focus {
     border-color: var(--colorPrimary);
     box-shadow: none;
@@ -5718,9 +5747,7 @@ footer {
 }
 
 .sign_in_form ul li a:hover {
-    /* color: var(--colorBlue); */
     border-color: var(--colorBlack);
-    /* background: var(--colorPrimary); */
 }
 
 .forgot_password form button {
