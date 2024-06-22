@@ -11,11 +11,10 @@ $(function () {
         if ($('.main_menu').offset() != undefined) {
             $('.main_menu').removeClass('menu_fix');
         }
-    }
+    };
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 1) {
-
             if ($('.main_menu').offset() != undefined) {
                 if (!$('.main_menu').hasClass("menu_fix")) {
                     $('.main_menu').addClass("menu_fix");
@@ -51,8 +50,6 @@ $(function () {
             filter: filterValue
         });
     });
-
-
     //active class
     $('.filter_btn button').on("click", function (event) {
 
@@ -128,7 +125,6 @@ $(function () {
             }
         ]
     });
-
 
 
     // TESTIMONIAL 2 SLIDER
@@ -307,7 +303,7 @@ $(function () {
     // STICKY SIDEBAR
     $(".sticky_sidebar").stickit({
         top: 70,
-    })
+    });
 
 
     // BARFILLER JS
@@ -323,5 +319,10 @@ $(function () {
         $('.select_2').select2();
     });
 
+
+    // MOBILE MENU TOGGLER
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 });

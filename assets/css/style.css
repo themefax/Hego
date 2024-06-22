@@ -51,6 +51,7 @@ span {
 }
 
 body {
+    position: relative;
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: var(--bodyFont);
@@ -342,9 +343,11 @@ button {
 ==================================*/
 /* MENU START */
 .main_menu {
+    position: fixed;
     width: 100%;
     height: 80px;
-    position: fixed;
+    top: 0;
+    left: 0;
     border-bottom: 1px solid #ffffff20;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -507,6 +510,41 @@ button {
         -o-transform: translateY(0%);
     }
 }
+
+
+/* for small device start */
+.navbar-toggler {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--colorPrimary);
+    padding: 0;
+    color: var(--colorBlack);
+    font-size: 16px;
+    margin-right: 12px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    box-shadow: none !important;
+    border-radius: 0;
+}
+
+.navbar-toggler .close_icon {
+    display: none;
+}
+
+.navbar-toggler.show .bar_icon {
+    display: none;
+}
+
+.navbar-toggler.show .close_icon {
+    display: inline-block;
+}
+
+/* for small device end */
 
 /* MENU END */
 
@@ -701,6 +739,7 @@ button {
     padding-bottom: 20px;
     border-radius: 0;
     box-shadow: none !important;
+    padding-right: 50px;
 }
 
 .accordian_area .accordion-body {
@@ -726,6 +765,9 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -1467,9 +1509,9 @@ footer {
     background-size: cover !important;
     background-repeat: no-repeat !important;
     padding: 45px 100px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
     position: relative;
     top: -95px;
 }
@@ -5421,7 +5463,12 @@ footer {
 
 .faq_page .accordian_area .accordion-header button {
     background: transparent;
-    padding: 15px 25px;
+    padding: 15px 55px 15px 25px;
+}
+
+.faq_page .accordian_area .accordion-button::after {
+    top: 17px;
+    right: 20px;
 }
 
 .faq_page .accordian_area .accordion-body {

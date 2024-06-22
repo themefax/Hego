@@ -1,9 +1,14 @@
 .barfiller {
   width: 100%;
-  height: 5px;
-  background: rgba(255, 115, 67, 0.20);
+  height: 8px;
+  background: #E9EDF1;
   position: relative;
-  margin-bottom: 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  overflow: hidden;
 }
 
 .barfiller .fill {
@@ -11,8 +16,10 @@
   position: relative;
   width: 0px;
   height: 100%;
-  background: #FF7343 !important;
+  background: #333;
   z-index: 1;
+  border-radius: 50px;
+  background: var(--colorPrimary) !important;
 }
 
 .barfiller .tipWrap {
@@ -21,10 +28,23 @@
 
 .barfiller .tip {
   margin-top: -30px;
-  color: var(--colorBlack);
+  padding: 2px 4px;
+  font-size: 11px;
+  color: #fff;
   left: 0px;
   position: absolute;
   z-index: 2;
-  font-size: 17px;
-  font-weight: 500;
+  background: #333;
+}
+
+.barfiller .tip:after {
+  border: solid;
+  border-color: rgba(0, 0, 0, .8) transparent;
+  border-width: 6px 6px 0 6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 9px;
+  top: 100%;
+  z-index: 9
 }

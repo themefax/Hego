@@ -14,4 +14,220 @@
 
 
 
-@media (max-width: 575.99px) {}
+@media (max-width: 575.99px) {
+
+    /*=============================
+        HOME PAGE 01 START
+    ==============================*/
+    /* menu start */
+    .main_menu {
+        height: 60px;
+        /* position: absolute !important; */
+    }
+
+    .main_menu .container {
+        padding: 2px 0px;
+    }
+
+    .main_menu .navbar-brand {
+        margin-left: 12px;
+    }
+
+    .main_menu .navbar-nav {
+        line-height: 50px;
+        background: var(--colorBlue);
+        padding-top: 10px;
+        border-bottom: 1px solid #eeeeee6b;
+        padding-bottom: 10px;
+    }
+
+    .main_menu .menu_right_btn {
+        background: var(--colorBlue);
+        padding: 20px;
+    }
+
+    .main_menu #navbarNav {
+        margin-top: 10px;
+    }
+
+    /* menu end */
+
+    .banner {
+        height: auto;
+        padding-top: 115px;
+        padding-bottom: 100px;
+    }
+
+    .banner .banner_text h1 {
+        font-size: 52px;
+        line-height: initial;
+    }
+
+    .banner .banner_img .img {
+        height: auto;
+    }
+
+    .banner .banner_text {
+        margin-bottom: 30px;
+    }
+
+    .section_heading h2 {
+        font-size: 32px;
+    }
+
+    .services .section_heading .common_btn {
+        display: none;
+    }
+
+    .single_services {
+        padding: 30px;
+    }
+
+    .single_services p {
+        margin-bottom: 10px;
+    }
+
+    .faq_img .img_1 {
+        width: 90%;
+        height: auto;
+    }
+
+    .faq_img .img_2 {
+        width: 200px;
+        height: auto;
+        right: 0;
+    }
+
+    .faq .faq_text {
+        margin-top: 25px;
+    }
+
+    .accordian_area .accordion-header button {
+        font-size: 18px;
+    }
+
+    .accordion-button::after {
+        top: 15px;
+    }
+
+    .filter_btn {
+        gap: 10px 20px;
+        justify-content: center;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .single_portfolio .img {
+        height: auto;
+    }
+
+    .text_slider .marquee_animi ul li {
+        font-size: 26px;
+    }
+
+    .text_slider .marquee_animi ul li::after {
+        top: 0px;
+    }
+
+    .about_text p {
+        font-size: 16px;
+    }
+
+    .about_text .about_video {
+        margin-top: 31px;
+        margin-bottom: 50px;
+    }
+
+    .about_img {
+        height: auto;
+    }
+
+    .single_testimonial_bg {
+        padding: 35px 25px;
+    }
+
+    .single_testimonial .client_text {
+        font-size: 16px;
+    }
+
+    .testimonial_text {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .counter ul li {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid #11101315;
+        padding: 30px 0px;
+    }
+
+    .call_to_action_text .text {
+        width: 100%;
+    }
+
+    .call_to_action_img {
+        height: 480px;
+        margin-top: 25px;
+    }
+
+    .single_blog_img {
+        height: auto;
+    }
+
+    .footer_mailbox {
+        padding: 30px;
+    }
+
+    .footer_mailbox h2 {
+        font-size: 26px;
+    }
+
+    .footer_mailbox .mail {
+        padding-left: 0;
+        margin-top: 15px;
+    }
+
+    .footer_mailbox .mail .icon {
+        display: none;
+    }
+
+    .footer_mailbox .mail a {
+        font-size: 17px;
+    }
+
+    .footer_info,
+    .footer_link {
+        margin-bottom: 50px;
+    }
+
+    .footer_info p {
+        margin-bottom: 20px;
+    }
+
+    .footer_subscription form {
+        margin-top: 35px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*=============================
+    HOME PAGE 01 START
+    ==============================*/
+
+
+
+
+
+
+
+}
