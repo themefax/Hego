@@ -408,6 +408,55 @@
     ==============================*/
 
 
+    /*=============================
+        BLOG DETAILS START
+    ==============================*/
+    .blog_det_img {
+        height: 420px;
+    }
+
+    .blog_det_center_img {
+        height: 325px;
+    }
+
+    .single_comment .text {
+        width: 87%;
+    }
+
+    .single_comment.reply .text {
+        width: 86%;
+    }
+
+    .blog_sidebar_product ul li .text {
+        width: 66%;
+    }
+
+    .blog_sidebar_tags ul li a {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    /*=============================
+        BLOG DETAILS END
+    ==============================*/
+
+    .contact_img {
+        height: 450px;
+    }
+
+    .error_text h2 {
+        font-size: 300px;
+        line-height: 220px;
+    }
+
+    .portfolio_details_thumbnail {
+        height: 430px;
+    }
+
+    .portfolio_details_sidebar {
+        padding-left: 0;
+    }
+
 
 
 }
@@ -737,7 +786,73 @@
     ==============================*/
 
 
+    /*=============================
+        BLOG DETAILS START
+    ==============================*/
+    .blog_det_img {
+        height: 350px;
+    }
 
+    .blog_det_center_img {
+        height: 270px;
+    }
+
+    .single_comment .text {
+        width: 85%;
+    }
+
+    .single_comment.reply {
+        padding-left: 50px;
+    }
+
+    .single_comment.reply .text {
+        width: 84%;
+    }
+
+    .blog_sidebar_product ul li .text {
+        width: 57%;
+    }
+
+    .blog_sidebar_tags ul li a {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    /*=============================
+        BLOG DETAILS END
+    ==============================*/
+
+    .contact_img {
+        height: 375px;
+    }
+
+    .contact_form {
+        padding-left: 0;
+    }
+
+    .error_text h2 {
+        font-size: 300px;
+    }
+
+    .error_text h4 {
+        margin-top: 0;
+    }
+
+    .faq_page .faq_thimbnail {
+        height: 370px;
+    }
+
+    .faq_page_text {
+        margin-bottom: 35px;
+    }
+
+    .portfolio_details_thumbnail {
+        height: 360px;
+    }
+
+    .portfolio_details_sidebar {
+        padding-left: 0;
+    }
 
 
 
@@ -1231,6 +1346,111 @@
     /*=============================
         HOME PAGE 03 END
     ==============================*/
+
+
+    /*=============================
+        ABOUT US START
+    ==============================*/
+    .breadcrumb_text h1 {
+        font-size: 54px;
+    }
+
+    .breadcrumb_text {
+        padding: 110px 0px 60px 0px;
+    }
+
+    /*=============================
+        ABOUT US END
+    ==============================*/
+
+
+    /*=============================
+        BLOG DETAILS START
+    ==============================*/
+    .blog_det_img {
+        height: 395px;
+    }
+
+    .blog_det_center_img {
+        height: 310px;
+    }
+
+    .single_comment .text {
+        width: 87%;
+    }
+
+    .single_comment.reply .text {
+        width: 85%;
+    }
+
+    .det_comment_input {
+        margin-bottom: 50px;
+    }
+
+    .blog_sidebar_product ul li .text {
+        width: 83%;
+    }
+
+    /*=============================
+        BLOG DETAILS END
+    ==============================*/
+
+    .billing_details {
+        margin-bottom: 45px;
+    }
+
+    .contact_form {
+        padding-left: 0;
+    }
+
+    .contact_map {
+        height: 500px;
+    }
+
+    .error_text h2 {
+        font-size: 250px;
+        line-height: 250px;
+    }
+
+    .error_text h4 {
+        margin-top: 0;
+    }
+
+    .faq_page .faq_thimbnail {
+        height: 275px;
+    }
+
+    .faq_page_text {
+        margin-bottom: 35px;
+    }
+
+    .sign_in_form {
+        margin: 0;
+    }
+
+    /*=============================
+        PORTFOLIO DETAILS START
+    ==============================*/
+    .portfolio_details_thumbnail {
+        height: 270px;
+    }
+
+    .portfolio_details_sidebar {
+        padding-left: 0;
+    }
+
+    .portfolio_details_content {
+        margin-bottom: 30px;
+    }
+
+    /*=============================
+        PORTFOLIO DETAILS END
+    ==============================*/
+
+
+
+
+
 
 
 }
@@ -1766,6 +1986,174 @@
     /*=============================
         HOME PAGE 03 END
     ==============================*/
+
+
+    /*=============================
+        ABOUT US START
+    ==============================*/
+    .breadcrumb_text h1 {
+        font-size: 48px;
+    }
+
+    .breadcrumb_text {
+        padding: 110px 0px 60px 0px;
+    }
+
+    /*=============================
+        ABOUT US END
+    ==============================*/
+
+
+    /*=============================
+        BLOG DETAILS START
+    ==============================*/
+    .blog_det_img {
+        height: 300px;
+    }
+
+    .blog_det_center_img {
+        height: 225px;
+    }
+
+    .blog_tags_and_share .right {
+        margin-top: 20px;
+    }
+
+    .single_comment .text {
+        width: 82% !important;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .single_comment.reply {
+        padding-left: 0;
+    }
+
+    .det_comment_input {
+        margin-bottom: 50px;
+    }
+
+    .blog_sidebar_product ul li .text {
+        width: 78%;
+    }
+
+    .blog_sidebar_tags ul li a {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    /*=============================
+        BLOG DETAILS END
+    ==============================*/
+
+    .billing_details {
+        margin-bottom: 45px;
+    }
+
+    /*=============================
+        CONTACT US START
+    ==============================*/
+    .contact_img {
+        height: 515px;
+    }
+
+    .contact_form {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .contact_form h3 {
+        font-size: 36px;
+    }
+
+    .contact_map {
+        height: 400px;
+    }
+
+    /*=============================
+        CONTACT US END
+    ==============================*/
+
+    .error_text h2 {
+        font-size: 180px;
+        line-height: 180px;
+    }
+
+    .error_text h4 {
+        font-size: 42px;
+        margin-top: 0;
+    }
+
+    /*=============================
+        FAQ PAGE START
+    ==============================*/
+    .faq_page .faq_thimbnail {
+        height: 205px;
+    }
+
+    .faq_page_text {
+        margin-bottom: 35px;
+    }
+
+    .accordian_area .accordion-header button {
+        font-size: 15px;
+    }
+
+    .faq_page .accordian_area .accordion-button::after {
+        top: 13px;
+    }
+
+    .faq_page_text h3 {
+        font-size: 34px;
+    }
+
+    /*=============================
+        FAQ PAGE END
+    ==============================*/
+
+    .sign_in_form {
+        margin: 0;
+    }
+
+    .sign_in_form ul li {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /*=============================
+        PORTFOLIO DETAILS START
+    ==============================*/
+    .portfolio_details_thumbnail {
+        height: 235px;
+    }
+
+    .portfolio_details_sidebar {
+        padding-left: 0;
+    }
+
+    .portfolio_details_content {
+        margin-bottom: 30px;
+    }
+
+    /*=============================
+        PORTFOLIO DETAILS END
+    ==============================*/
+
+    .single_pricing_heading {
+        padding: 30px;
+    }
+
+    .single_pricing .text {
+        padding: 30px 30px 25px 30px;
+    }
+
+
+
+
+
+
+
+
 }
 
 @media (max-width: 575.99px) {
@@ -2318,7 +2706,208 @@
     ==============================*/
 
 
+    /*=============================
+        ABOUT US START
+    ==============================*/
+    .breadcrumb_text h1 {
+        font-size: 38px;
+    }
 
+    .breadcrumb_text ul li,
+    .breadcrumb_text ul li a {
+        font-size: 13px;
+    }
+
+    .breadcrumb_text ul {
+        padding: 12px 15px 8px 35px;
+    }
+
+    .breadcrumb_text ul::after {
+        font-size: 13px;
+        top: 12px;
+        left: 13px;
+    }
+
+    .breadcrumb_text {
+        padding: 110px 0px 60px 0px;
+    }
+
+    /*=============================
+        ABOUT US END
+    ==============================*/
+
+
+    /*=============================
+        BLOG DETAILS START
+    ==============================*/
+    .blog_det_img {
+        height: auto;
+    }
+
+    .blog_det_text_header .left {
+        gap: 10px;
+    }
+
+    .blog_det_text_header .left li {
+        font-size: 14px;
+    }
+
+    .blog_det_center_img {
+        height: auto;
+    }
+
+    .blog_tags_and_share .right {
+        margin-top: 20px;
+    }
+
+    .single_comment .text {
+        width: 100% !important;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .single_comment .text h4 span {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .single_comment.reply {
+        padding-left: 0;
+    }
+
+    .det_comment_input {
+        margin-bottom: 50px;
+    }
+
+    .blog_sidebar_product ul li .text {
+        width: 56%;
+    }
+
+    .blog_sidebar_tags ul li a {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    /*=============================
+        BLOG DETAILS END
+    ==============================*/
+
+
+    /*=============================
+        CHECKOUT START
+    ==============================*/
+    .billing_details {
+        margin-bottom: 45px;
+    }
+
+    .checkout_payment_info {
+        padding: 15px 20px 20px 20px;
+    }
+
+    .checkout_payment_info .form-check label,
+    .checkout_payment_info ul li,
+    .checkout_payment_info ul li span {
+        font-size: 14px;
+    }
+
+    /*=============================
+        CHECKOUT END
+    ==============================*/
+
+
+    /*=============================
+        CONTACT US START
+    ==============================*/
+    .contact_img {
+        height: auto;
+    }
+
+    .contact_form {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .contact_form h3 {
+        font-size: 36px;
+    }
+
+    .contact_map {
+        height: 360px;
+    }
+
+    /*=============================
+        CONTACT US END
+    ==============================*/
+
+    .error_text h2 {
+        font-size: 130px;
+        line-height: initial;
+    }
+
+    .error_text h4 {
+        font-size: 34px;
+        margin-top: 0;
+    }
+
+    /*=============================
+        FAQ PAGE START
+    ==============================*/
+    .faq_page .faq_thimbnail {
+        height: auto;
+    }
+
+    .faq_page_text h3 {
+        font-size: 28px;
+    }
+
+    .faq_page_text {
+        margin-bottom: 35px;
+    }
+
+    .faq_page .accordian_area .accordion-button::after {
+        top: 26px;
+    }
+
+    /*=============================
+        FAQ PAGE END
+    ==============================*/
+    .sign_in_form {
+        padding: 30px;
+        margin: 0;
+    }
+
+    .sign_in_form ul li {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /*=============================
+        PORTFOLIO DETAILS START
+    ==============================*/
+    .portfolio_details_thumbnail {
+        height: auto;
+    }
+
+    .portfolio_details_sidebar {
+        padding-left: 0;
+    }
+
+    .portfolio_details_content {
+        margin-bottom: 30px;
+    }
+
+    /*=============================
+        PORTFOLIO DETAILS END
+    ==============================*/
+
+    .single_pricing_heading {
+        padding: 30px;
+    }
+
+    .single_pricing .text {
+        padding: 30px 30px 25px 30px;
+    }
 
 
 

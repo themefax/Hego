@@ -80,7 +80,7 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
         dots: true,
         arrows: false,
 
@@ -91,8 +91,8 @@ $(function () {
     $('.case_study_slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 4000,
+        autoplay: true,
+        autoplaySpeed: 3000,
         dots: false,
         arrows: true,
         nextArrow: '<i class="far fa-chevron-right nextArrow"></i>',
@@ -144,7 +144,8 @@ $(function () {
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
         arrows: false,
         dots: true,
         asNavFor: '.slider-nav'
@@ -236,7 +237,7 @@ $(function () {
         slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
         dots: false,
         arrows: true,
         nextArrow: '<i class="far fa-chevron-right nextArrow"></i>',
@@ -283,8 +284,8 @@ $(function () {
     $('.blog_3_slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
-        autoplay: false,
-        autoplaySpeed: 4000,
+        autoplay: true,
+        autoplaySpeed: 3000,
         dots: false,
         arrows: true,
         centerMode: true,

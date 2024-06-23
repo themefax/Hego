@@ -1,3 +1,31 @@
+/****************************************
+Template Name: Hego - Multipurpose Agency HTML Template.
+Author: ThemeLab-Portfolio 
+Author Email: themelab.bd@gmail.com
+Version: 1.0
+Description: 
+
+
+===================================
+CSS INDEX
+===================================
+01. GLOBAL CSS 
+02. HOME PAGE 01
+03. HOME PAGE 02 
+04. HOME PAGE 03
+05. SERVICES DETAILS
+06. TEAM DETAILS
+07. PORTFOLIO DETAILS
+08. PRICING
+09. CHECKOUT
+10. CONTACT US
+11. BLOG DETAILS
+12. FAQ PAGE
+13. ERROR
+14. PRIVACY POLICY
+14. SIGN IN
+**********************************/
+
 /*==================================
     GLOBAL CSS START
 ==================================*/
@@ -2963,8 +2991,8 @@ footer {
     top: 0;
     left: 0;
     z-index: -1;
-    animation: banner_3_animi linear 4s infinite alternate;
-    -webkit-animation: banner_3_animi linear 4s infinite alternate;
+    animation: banner_3_animi linear 2s infinite alternate;
+    -webkit-animation: banner_3_animi linear 2s infinite alternate;
 }
 
 @keyframes banner_3_animi {
@@ -4774,7 +4802,7 @@ footer {
 
 
 /*==================================
-    CONTACR US START
+    CONTACT US START
 ==================================*/
 .contact_info {
     background: var(--lightBg);
@@ -4896,7 +4924,7 @@ footer {
 }
 
 /*==================================
-    CONTACR US END
+    CONTACT US END
 ==================================*/
 
 
@@ -5406,7 +5434,6 @@ footer {
 
 .blog_sidebar_tags ul li a {
     color: var(--colorBlack);
-    font-family: var(--headingFont);
     font-size: 16px;
     font-weight: 400;
     border: 1px solid #eee;
@@ -5519,7 +5546,7 @@ footer {
 }
 
 .faq_page .accordian_area .accordion-button::after {
-    top: 17px;
+    top: 15px;
     right: 20px;
 }
 
