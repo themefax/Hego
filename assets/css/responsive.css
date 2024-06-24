@@ -66,14 +66,6 @@
     .footer_3::after {
         width: 450px;
     }
-
-
-
-
-
-
-
-
 }
 
 @media (min-width: 1400px) and (max-width: 1600px) {
@@ -131,7 +123,6 @@
         padding: 30px 18px;
     }
 
-
     .testimonial_3 .nextArrow,
     .testimonial_3 .prevArrow {
         left: -393px;
@@ -162,13 +153,6 @@
     .footer_3::after {
         width: 370px;
     }
-
-
-
-
-
-
-
 }
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
@@ -224,7 +208,6 @@
     /*=============================
         HOME PAGE 01 END
     ==============================*/
-
 
     /*=============================
         HOME PAGE 02 START
@@ -282,7 +265,6 @@
     /*=============================
         HOME PAGE 02 END
     ==============================*/
-
 
     /*=============================
         HOME PAGE 03 START
@@ -407,7 +389,6 @@
         HOME PAGE 03 END
     ==============================*/
 
-
     /*=============================
         BLOG DETAILS START
     ==============================*/
@@ -439,7 +420,6 @@
     /*=============================
         BLOG DETAILS END
     ==============================*/
-
     .contact_img {
         height: 450px;
     }
@@ -457,8 +437,43 @@
         padding-left: 0;
     }
 
+    /*=============================
+        SERVICE DETAILS START
+    ==============================*/
+    .service_details_thumbnail {
+        height: 440px;
+    }
 
+    .service_details_small_img {
+        height: 235px;
+    }
 
+    .sidebar_services ul li a .text {
+        width: 68%;
+    }
+
+    .sidebar_expert {
+        height: 450px;
+    }
+
+    .sidebar_expert .text {
+        padding: 25px;
+    }
+
+    /*=============================
+        SERVICE DETAILS END
+    ==============================*/
+    .team_details_img {
+        height: 400px;
+    }
+
+    .team_details_text_top {
+        padding: 25px;
+    }
+
+    .single_team_text .title {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -546,7 +561,6 @@
     /*=============================
         HOME PAGE 01 END
     ==============================*/
-
 
     /*=============================
         HOME PAGE 02 START
@@ -648,7 +662,6 @@
     /*=============================
         HOME PAGE 02 END
     ==============================*/
-
 
     /*=============================
         HOME PAGE 03 START
@@ -785,7 +798,6 @@
         HOME PAGE 03 END
     ==============================*/
 
-
     /*=============================
         BLOG DETAILS START
     ==============================*/
@@ -821,7 +833,6 @@
     /*=============================
         BLOG DETAILS END
     ==============================*/
-
     .contact_img {
         height: 375px;
     }
@@ -854,14 +865,73 @@
         padding-left: 0;
     }
 
+    /*=============================
+        SERVICE DETAILS START
+    ==============================*/
+    .service_details_thumbnail {
+        height: 370px;
+    }
 
+    .service_details_title {
+        font-size: 36px;
+    }
 
+    .service_details_small_img {
+        height: 195px;
+    }
 
+    .details_share {
+        margin-top: 20px;
+    }
 
+    .sidebar_services ul li a .icon {
+        width: 65px;
+        height: 65px;
+        padding: 15px;
+    }
 
+    .sidebar_services ul li a .text {
+        width: 66%;
+    }
 
+    .sidebar_services ul li a .text h3 {
+        font-size: 18px;
+    }
 
+    .sidebar_expert {
+        height: 375px;
+    }
 
+    .sidebar_expert .text {
+        padding: 25px;
+    }
+
+    /*=============================
+        SERVICE DETAILS END
+    ==============================*/
+
+    /*=============================
+        TEAM DETAILS START
+    ==============================*/
+    .team_details_text_top {
+        padding: 20px;
+    }
+
+    .team_details_img {
+        height: 450px;
+    }
+
+    .team_details_text p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    /*=============================
+        TEAM DETAILS END
+    ==============================*/
+    .single_team_text .title {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -1042,7 +1112,6 @@
         HOME PAGE 01 END
     ==============================*/
 
-
     /*=============================
         HOME PAGE 02 START
     ==============================*/
@@ -1178,7 +1247,6 @@
     /*=============================
         HOME PAGE 02 END
     ==============================*/
-
 
     /*=============================
         HOME PAGE 03 START
@@ -1347,7 +1415,6 @@
         HOME PAGE 03 END
     ==============================*/
 
-
     /*=============================
         ABOUT US START
     ==============================*/
@@ -1362,7 +1429,6 @@
     /*=============================
         ABOUT US END
     ==============================*/
-
 
     /*=============================
         BLOG DETAILS START
@@ -1394,7 +1460,6 @@
     /*=============================
         BLOG DETAILS END
     ==============================*/
-
     .billing_details {
         margin-bottom: 45px;
     }
@@ -1447,12 +1512,55 @@
         PORTFOLIO DETAILS END
     ==============================*/
 
+    /*=============================
+        SERVICE DETAILS START
+    ==============================*/
+    .service_details_thumbnail {
+        height: 415px;
+    }
 
+    .service_details_title {
+        font-size: 38px;
+    }
 
+    .service_details_small_img {
+        height: 220px;
+    }
 
+    .service_details_tags_share {
+        margin-bottom: 50px;
+    }
 
+    .sidebar_services ul li a .text {
+        width: 75%;
+    }
 
+    .sidebar_expert {
+        height: 580px;
+    }
 
+    /*=============================
+        SERVICE DETAILS END
+    ==============================*/
+
+    /*=============================
+        TEAM DETAILS START
+    ==============================*/
+    .team_details_img {
+        height: 515px;
+    }
+
+    .team_details_text_top {
+        margin-top: 25px;
+    }
+
+    .team_details_contact h3 {
+        font-size: 38px;
+    }
+
+    /*=============================
+        TEAM DETAILS END
+    ==============================*/
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -1672,7 +1780,6 @@
         HOME PAGE 01 END
     ==============================*/
 
-
     /*=============================
         HOME PAGE 02 START
     ==============================*/
@@ -1818,7 +1925,6 @@
     /*=============================
         HOME PAGE 02 END
     ==============================*/
-
 
     /*=============================
         HOME PAGE 03 START
@@ -1987,7 +2093,6 @@
         HOME PAGE 03 END
     ==============================*/
 
-
     /*=============================
         ABOUT US START
     ==============================*/
@@ -2002,7 +2107,6 @@
     /*=============================
         ABOUT US END
     ==============================*/
-
 
     /*=============================
         BLOG DETAILS START
@@ -2045,7 +2149,6 @@
     /*=============================
         BLOG DETAILS END
     ==============================*/
-
     .billing_details {
         margin-bottom: 45px;
     }
@@ -2073,7 +2176,6 @@
     /*=============================
         CONTACT US END
     ==============================*/
-
     .error_text h2 {
         font-size: 180px;
         line-height: 180px;
@@ -2110,7 +2212,6 @@
     /*=============================
         FAQ PAGE END
     ==============================*/
-
     .sign_in_form {
         margin: 0;
     }
@@ -2138,7 +2239,6 @@
     /*=============================
         PORTFOLIO DETAILS END
     ==============================*/
-
     .single_pricing_heading {
         padding: 30px;
     }
@@ -2147,13 +2247,70 @@
         padding: 30px 30px 25px 30px;
     }
 
+    .privacy_policy_area {
+        padding: 8px 30px 30px 30px;
+    }
 
+    /*=============================
+        SERVICE DETAILS START
+    ==============================*/
+    .service_details_thumbnail {
+        height: 310px;
+    }
 
+    .service_details_title {
+        font-size: 34px;
+    }
 
+    .service_details_small_img {
+        height: 160px;
+    }
 
+    .details_share {
+        margin-top: 20px;
+    }
 
+    .service_details_tags_share {
+        margin-bottom: 50px;
+    }
 
+    .sidebar_services ul li a .text {
+        width: 78%;
+    }
 
+    .sidebar_expert {
+        height: 655px;
+    }
+
+    .service_details_thumbnail a {
+        width: 80px;
+        height: 80px;
+        padding: 30px;
+        line-height: 18px;
+    }
+
+    /*=============================
+        SERVICE DETAILS END
+    ==============================*/
+
+    /*=============================
+        TEAM DETAILS START
+    ==============================*/
+    .team_details_img {
+        height: 580px;
+    }
+
+    .team_details_text_top {
+        padding: 20px;
+    }
+
+    .team_details_contact h3 {
+        font-size: 38px;
+    }
+
+    /*=============================
+        TEAM DETAILS END
+    ==============================*/
 }
 
 @media (max-width: 575.99px) {
@@ -2379,7 +2536,6 @@
         HOME PAGE 01 END
     ==============================*/
 
-
     /*=============================
         HOME PAGE 02 START
     ==============================*/
@@ -2543,7 +2699,6 @@
         HOME PAGE 02 END
     ==============================*/
 
-
     /*=============================
         HOME PAGE 03 START
     ==============================*/
@@ -2705,12 +2860,11 @@
         HOME PAGE 03 END
     ==============================*/
 
-
     /*=============================
         ABOUT US START
     ==============================*/
     .breadcrumb_text h1 {
-        font-size: 38px;
+        font-size: 34px;
     }
 
     .breadcrumb_text ul li,
@@ -2720,6 +2874,12 @@
 
     .breadcrumb_text ul {
         padding: 12px 15px 8px 35px;
+        gap: 10px 15px;
+    }
+
+    .breadcrumb_text ul li a::after {
+        top: 6px;
+        right: -9px;
     }
 
     .breadcrumb_text ul::after {
@@ -2735,7 +2895,6 @@
     /*=============================
         ABOUT US END
     ==============================*/
-
 
     /*=============================
         BLOG DETAILS START
@@ -2793,7 +2952,6 @@
         BLOG DETAILS END
     ==============================*/
 
-
     /*=============================
         CHECKOUT START
     ==============================*/
@@ -2814,7 +2972,6 @@
     /*=============================
         CHECKOUT END
     ==============================*/
-
 
     /*=============================
         CONTACT US START
@@ -2839,7 +2996,6 @@
     /*=============================
         CONTACT US END
     ==============================*/
-
     .error_text h2 {
         font-size: 130px;
         line-height: initial;
@@ -2900,7 +3056,6 @@
     /*=============================
         PORTFOLIO DETAILS END
     ==============================*/
-
     .single_pricing_heading {
         padding: 30px;
     }
@@ -2909,7 +3064,86 @@
         padding: 30px 30px 25px 30px;
     }
 
+    .privacy_policy_area {
+        padding: 8px 30px 30px 30px;
+    }
 
+    /*=============================
+        SERVICE DETAILS START
+    ==============================*/
+    .service_details_thumbnail {
+        height: auto;
+    }
 
+    .service_details_title {
+        font-size: 34px;
+    }
 
+    .service_details_small_img {
+        height: auto;
+    }
+
+    .details_share {
+        margin-top: 20px;
+    }
+
+    .service_details_tags_share {
+        margin-bottom: 50px;
+    }
+
+    .sidebar_services ul li a .text {
+        width: 100%;
+    }
+
+    .sidebar_expert {
+        height: auto;
+    }
+
+    .sidebar_expert .text {
+        padding: 20px;
+    }
+
+    .service_details_thumbnail a {
+        width: 80px;
+        height: 80px;
+        padding: 30px;
+        line-height: 18px;
+    }
+
+    /*=============================
+        SERVICE DETAILS END
+    ==============================*/
+
+    /*=============================
+        TEAM DETAILS START
+    ==============================*/
+    .team_details_img {
+        height: auto;
+    }
+
+    .team_details_text_top {
+        padding: 20px;
+    }
+
+    .team_details_text_top ul {
+        margin-top: 15px;
+        position: initial;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+
+    .team_details_contact h3 {
+        font-size: 34px;
+    }
+
+    .team_details_input button {
+        width: auto !important;
+    }
+
+    /*=============================
+        TEAM DETAILS END
+    ==============================*/
 }

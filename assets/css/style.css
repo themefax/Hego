@@ -1,10 +1,9 @@
 /****************************************
-Template Name: Hego - Multipurpose Agency HTML Template.
+Template Name: Hego - Multi-Purpose Agency HTML Template.
 Author: ThemeLab-Portfolio 
 Author Email: themelab.bd@gmail.com
 Version: 1.0
-Description: 
-
+Description: Hego is a cutting-edge HTML agency template that is responsive and multipurpose. Both HTML5 and Bootstrap 5 are included. We used a contemporary, component-based, and developer-friendly design. It has an HTML template that loads more quickly and a contemporary design. It has the following possible pages: Creative Agency, Digital Marketing, Design Studio, Digital Agency, Business Agency, Studio Agency, and any additional necessary inner or detail pages.
 
 ===================================
 CSS INDEX
@@ -186,7 +185,6 @@ button {
 }
 
 /* COMMON BUTTON END */
-
 .title {
     color: var(--colorBlack);
     font-size: 22px;
@@ -283,7 +281,7 @@ button {
     justify-content: center;
     align-items: center;
     background: var(--colorPrimary);
-    gap: 30px;
+    gap: 10px 30px;
     padding: 12px 30px 8px 50px;
     position: relative;
 }
@@ -362,15 +360,13 @@ button {
 }
 
 /* PAGINATION END */
-
-/*==================================
+/*=========================
     GLOBAL CSS END
-==================================*/
+=========================*/
 
-
-/*==================================
+/*=========================
     HOME PAGE 01 START
-==================================*/
+=========================*/
 /* MENU START */
 .main_menu {
     position: fixed;
@@ -542,7 +538,6 @@ button {
     }
 }
 
-
 /* for small device start */
 .navbar-toggler {
     width: 40px;
@@ -575,9 +570,7 @@ button {
 }
 
 /* for small device end */
-
 /* MENU END */
-
 
 /* BANNER START */
 .banner {
@@ -643,7 +636,6 @@ button {
 }
 
 /* BANNER END */
-
 
 /* SERVICES START */
 .single_services {
@@ -734,7 +726,6 @@ button {
 
 /* SERVICES END */
 
-
 /* FAQ START */
 .faq_img {
     position: relative;
@@ -812,7 +803,6 @@ button {
 }
 
 /* FAQ END */
-
 
 /* PORTFOLIO START */
 .filter_btn {
@@ -938,7 +928,6 @@ button {
 
 /* PORTFOLIO END */
 
-
 /* TEXT SLIDER START */
 .text_slider {
     background: var(--colorBlack);
@@ -988,7 +977,6 @@ button {
 }
 
 /* TEXT SLIDER END */
-
 
 /* ABOUT START */
 .about {
@@ -1076,7 +1064,6 @@ button {
     -webkit-animation: about_animi_2 linear 13s infinite;
 }
 
-
 @keyframes about_animi_2 {
     from {
         transform: rotate(0deg);
@@ -1107,7 +1094,6 @@ button {
 }
 
 /* ABOUT END */
-
 
 /* TESTIMONIAL START */
 .testimonial {
@@ -1286,7 +1272,6 @@ button {
 
 /* TESTIMONIAL END */
 
-
 /* COUNTER START */
 .counter ul {
     padding: 40px 0px;
@@ -1330,7 +1315,6 @@ button {
 }
 
 /* COUNTER END */
-
 
 /* CALL TO ACTION START */
 .call_to_action_img {
@@ -1431,7 +1415,6 @@ button {
 }
 
 /* CALL TO ACTION END */
-
 
 /* BLOG START */
 .single_blog {
@@ -1534,7 +1517,6 @@ button {
 }
 
 /* BLOG END */
-
 
 /* FOOTER START */
 footer {
@@ -1812,15 +1794,13 @@ footer {
 }
 
 /* FOOTER END */
-
-/*==================================
+/*==========================
     HOME PAGE 01 END
-==================================*/
+==========================*/
 
-
-/*==================================
+/*==========================
     HOME PAGE 02 START
-==================================*/
+==========================*/
 .home_2 p,
 .home_2 span {
     font-family: var(--paraFont);
@@ -1861,7 +1841,6 @@ footer {
 }
 
 /* MENU 2 END */
-
 
 /* BANNER 2 START */
 .banner_2 .banner_text h1,
@@ -1944,7 +1923,6 @@ footer {
 }
 
 /* BANNER 2 END */
-
 
 /* SERVICES 2 START */
 .services_2 {
@@ -2033,7 +2011,6 @@ footer {
 }
 
 /* SERVICES 2 END */
-
 
 /* ABOUT 2 START */
 .about_2 {
@@ -2244,7 +2221,6 @@ footer {
 
 /* ABOUT 2 END */
 
-
 /* COUNTER 2 START */
 .counter_2 ul {
     background: url(../images/footer_mail_bg.jpg);
@@ -2259,7 +2235,6 @@ footer {
 }
 
 /* COUNTER 2 END */
-
 
 /* CASE STUDIES START */
 .case_studies {
@@ -2293,7 +2268,6 @@ footer {
     top: 0;
     right: 0;
 }
-
 
 .single_case_studies {
     margin: 0px 12px;
@@ -2421,7 +2395,6 @@ footer {
 
 /* CASE STUDIES END */
 
-
 /* AWARDS START */
 .awards {
     overflow: hidden;
@@ -2514,7 +2487,6 @@ footer {
 
 /* AWARDS END */
 
-
 /* TEAM START */
 .single_team {
     margin-top: 25px;
@@ -2605,7 +2577,6 @@ footer {
 }
 
 /* TEAM END */
-
 
 /* TESTIMONIAL START */
 .testimonial_2 {
@@ -2786,9 +2757,7 @@ footer {
 
 /* TESTIMONIAL 2 END */
 
-
 /* BLOG 2 START */
-
 .single_blog_2 {
     margin-top: 25px;
 }
@@ -2836,7 +2805,6 @@ footer {
 }
 
 /* BLOG 2 END */
-
 
 /* FOOTER 2 START */
 .footer_2 .footer_info ul li a {
@@ -2886,14 +2854,13 @@ footer {
 }
 
 /* FOOTER 2 END */
-/*==================================
+/*===========================
     HOME PAGE 02 END
-==================================*/
+===========================*/
 
-
-/*==================================
+/*===========================
     HOME PAGE 03 START
-==================================*/
+===========================*/
 .home_3 {
     background: var(--lightBg);
 }
@@ -2967,7 +2934,6 @@ footer {
 }
 
 /* MENU 3 END */
-
 
 /* BANNER 3 START */
 .banner_3 {
@@ -3099,7 +3065,6 @@ footer {
 
 /* BANNER 3 END */
 
-
 /* FUN FACT 3 START */
 .fun_fact_3 {
     background: var(--colorBlue);
@@ -3191,7 +3156,6 @@ footer {
 }
 
 /* FUN FACT 3 END */
-
 
 /* ABOUT 3 START */
 .about_us_3 {
@@ -3304,7 +3268,6 @@ footer {
 
 /* ABOUT 3 END */
 
-
 /* PORTFOLIO 3 START */
 .portfolio_3 {
     overflow: hidden;
@@ -3390,7 +3353,6 @@ footer {
 
 /* PORTFOLIO 3 END */
 
-
 /* PARTNER 3 START */
 .partner_3 {
     overflow: hidden;
@@ -3437,7 +3399,6 @@ footer {
 }
 
 /* PARTNER 3 END */
-
 
 /* SERVICES 3 START */
 .services_3 {
@@ -3514,7 +3475,6 @@ footer {
 }
 
 /* SERVICES 3 END */
-
 
 /* TESTIMONIAL 3 START */
 .testimonial_3 {
@@ -3607,7 +3567,6 @@ footer {
 
 /* TESTIMONIAL 3 END */
 
-
 /* FAQ 3 START */
 .faq_3 {
     overflow: hidden;
@@ -3618,7 +3577,6 @@ footer {
 }
 
 /* FAQ 3 END */
-
 
 /* TEAM 3 START */
 .team_3 {
@@ -3719,7 +3677,6 @@ footer {
 }
 
 /* TEAM 3 END */
-
 
 /* BLOG 3 START */
 .blog_3 {
@@ -3824,7 +3781,6 @@ footer {
 }
 
 /* BLOG 3 END */
-
 
 /* FOOTER 3 START */
 .footer_3 {
@@ -3994,14 +3950,13 @@ footer {
 }
 
 /* FOOTER 3 END */
-/*==================================
+/*==========================
     HOME PAGE 03 END
-==================================*/
+==========================*/
 
-
-/*==================================
+/*==========================
     SERVICES DETAILS START
-==================================*/
+==========================*/
 .service_details_thumbnail {
     position: relative;
     height: 510px;
@@ -4017,6 +3972,7 @@ footer {
     background: var(--colorPrimary);
     border-radius: 50%;
     padding: 50px;
+    line-height: 18px;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -4168,6 +4124,13 @@ footer {
     margin-bottom: 7px;
 }
 
+.sidebar_services ul li a .text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .sidebar_services ul li a:hover {
     background: var(--colorWhite);
     border-color: var(--borderColor);
@@ -4206,14 +4169,17 @@ footer {
     background: var(--colorBlack);
 }
 
-/*==================================
+/*===========================
     SERVICES DETAILS END
-==================================*/
+===========================*/
 
-
-/*==================================
+/*===========================
     TEAM DETAILS START
-==================================*/
+===========================*/
+.team_details_img {
+    height: 470px;
+}
+
 .team_details_text_top {
     background: var(--lightBg);
     padding: 30px 30px 30px 40px;
@@ -4291,11 +4257,32 @@ footer {
 
 .team_details_education ul li,
 .team_details_education ol li {
-    list-style: inside;
     color: var(--paraColor);
     font-size: 16px;
     font-weight: 500;
     margin-top: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.team_details_education ul li::after,
+.team_details_education ol li::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: var(--paraColor);
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.team_skills_bar_single {
+    margin-top: 20px;
 }
 
 .team_skills_bar_single p {
@@ -4330,7 +4317,6 @@ footer {
     font-size: 14px;
     font-weight: 500;
 }
-
 
 .team_details_input>input::placeholder,
 .team_details_input>textarea::placeholder {
@@ -4385,14 +4371,13 @@ footer {
     color: var(--colorBlack);
 }
 
-/*==================================
+/*===========================
     TEAM DETAILS END
-==================================*/
+===========================*/
 
-
-/*==================================
+/*===========================
     PORTFOLIO DETAILS START
-==================================*/
+===========================*/
 .portfolio_details_thumbnail {
     height: 500px;
     overflow: hidden;
@@ -4439,13 +4424,30 @@ footer {
 
 .portfolio_details_content ul li,
 .portfolio_details_content ol li {
-    list-style: inside;
+    position: relative;
     font-family: var(--paraFont);
     color: var(--paraColor);
     font-size: 15px;
     font-weight: 500;
     line-height: 26px;
     margin-top: 5px;
+    padding-left: 25px;
+}
+
+.portfolio_details_content ul li::after,
+.portfolio_details_content ol li::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: var(--paraColor);
+    top: 8px;
+    left: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .portfolio_details_sidebar {
@@ -4514,14 +4516,13 @@ footer {
     color: var(--colorBlack);
 }
 
-/*==================================
+/*============================
     PORTFOLIO DETAILS END
-==================================*/
+============================*/
 
-
-/*==================================
+/*============================
     PRICING START
-==================================*/
+============================*/
 .single_pricing {
     background: var(--lightBg);
     margin-top: 25px;
@@ -4606,14 +4607,13 @@ footer {
     color: var(--colorBlack);
 }
 
-/*==================================
+/*=========================
     PRICING END
-==================================*/
+=========================*/
 
-
-/*==================================
+/*=========================
     CHECKOUT START
-==================================*/
+=========================*/
 .checkout_top p {
     font-size: 15px;
     font-weight: 500;
@@ -4772,7 +4772,6 @@ footer {
     border-bottom: 13px solid #25272933;
 }
 
-
 .checkout_payment_info .form-check label .payment_card {
     max-width: 200px;
 }
@@ -4796,14 +4795,13 @@ footer {
     color: var(--colorBlack);
 }
 
-/*==================================
+/*===========================
     CHECKOUT END
-==================================*/
+===========================*/
 
-
-/*==================================
+/*===========================
     CONTACT US START
-==================================*/
+===========================*/
 .contact_info {
     background: var(--lightBg);
     padding: 65px 35px 35px 35px;
@@ -4923,14 +4921,13 @@ footer {
     height: 100%;
 }
 
-/*==================================
+/*===========================
     CONTACT US END
-==================================*/
+===========================*/
 
-
-/*==================================
+/*===========================
     BLOGG DETAILS START
-==================================*/
+===========================*/
 .blog_det_img {
     height: 500px;
     overflow: hidden;
@@ -5344,7 +5341,6 @@ footer {
     color: var(--colorBlack);
 }
 
-
 .blog_sidebar_product {
     background: var(--lightBg);
     padding: 30px;
@@ -5486,14 +5482,13 @@ footer {
     margin-bottom: 5px;
 }
 
-/*==================================
+/*=============================
     BLOGG DETAILS END
-==================================*/
+=============================*/
 
-
-/*==================================
+/*=============================
     FAQ PAGE START
-==================================*/
+=============================*/
 .faq_page .faq_thimbnail {
     height: 510px;
     overflow: hidden;
@@ -5559,14 +5554,13 @@ footer {
     background-color: var(--lightBg) !important;
 }
 
-/*==================================
+/*===========================
     FAQ PAGE END
-==================================*/
+===========================*/
 
-
-/*==================================
+/*===========================
     ERROR START
-==================================*/
+===========================*/
 .error_page {
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -5616,10 +5610,9 @@ footer {
     background: var(--colorBlack);
 }
 
-/*==================================
+/*============================
     ERROR END
-==================================*/
-
+=============================*/
 
 /*=============================
     PRIVACY POLICY START
@@ -5701,7 +5694,6 @@ footer {
 /*=============================
     PRIVACY POLICY END
 =============================*/
-
 
 /*===========================
     SIGN IN START
